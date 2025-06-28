@@ -8,7 +8,7 @@ const Pet = mongoose.models.Pet || mongoose.model('Pet', petSchema)
 
 async function connectDB() {
   if (mongoose.connection.readyState === 0) {
-    await mongoose.connect(process.env.MONGODB_URI!, {
+    await mongoose.connect("mongodb+srv://straytabase_admin:Qd8q4eCNCzS%3B%3F%5DN@straytabase.ehtrs0e.mongodb.net/?retryWrites=true&w=majority&appName=StrayTaBase", {
       dbName: 'your-db-name',
     })
   }
