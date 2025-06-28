@@ -1,5 +1,3 @@
-// app/api/pets/route.ts (or similar path)
-
 import { NextRequest, NextResponse } from 'next/server';
 import mongoose, { mongo } from 'mongoose';
 
