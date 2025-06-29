@@ -1,5 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server';
 import mongoose from 'mongoose';
+import { z } from 'zod';
+
+export const AdopterSchema = z.object({
+  adopter_id: z.string(),
+  name: z.string().optional(),
+  age: z.number().optional(),
+  city: z.string().optional(),
+  previous_pets: z.number().optional()
+});
+
+export type Adopter = z.infer<typeof AdopterSchema>;
 
 const adopterSchema = new mongoose.Schema({}, { strict: false });
 const Adopter = mongoose.models.Adopter || mongoose.model('Adopter', adopterSchema);
@@ -15,19 +26,19 @@ async function connectDB() {
 export async function POST(request: NextRequest) {
   try {
     await connectDB();
-    const data = await request.json();
+    const json = await request.json();
 
-    // Validation
-    if (!data.adopter_id || !data.name) {
-      return NextResponse.json({ error: 'Missing adopter fields' }, { status: 400 });
+    const result = AdopterSchema.safeParse(json);
+    if (!result.success) {
+      return NextResponse.json({ error: 'Invalid input caught by zod', details: result.error.flatten() }, { status: 400 });
     }
 
-    const existing = await Adopter.findOne({ adopter_id: data.adopter_id });
+    const existing = await Adopter.findOne({ adopter_id: json.adopter_id });
     if (existing) {
       return NextResponse.json({ error: 'Adopter ID already exists' }, { status: 409 });
     }
 
-    const newAdopter = new Adopter(data);
+    const newAdopter = new Adopter(result);
     await newAdopter.save();
 
     return NextResponse.json({ message: 'Adopter added successfully', adopter: newAdopter }, { status: 201 });

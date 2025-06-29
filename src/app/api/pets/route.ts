@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import mongoose from 'mongoose';
 
+type QueryValue = string | number | { $regex: string; $options: string; }
+
 const petSchema = new mongoose.Schema({}, { strict: false });
 const Pet = mongoose.models.Pet || mongoose.model('Pet', petSchema);
 
@@ -20,15 +22,16 @@ export async function GET(request: NextRequest) {
     const name = searchParams.get('name')?.trim();
     const breed = searchParams.get('breed')?.trim();
     const species = searchParams.get('species')?.trim();
-    const adopted = searchParams.get('adopted')?.trim();
+    const age = searchParams.get('age')?.trim();
 
-    const query: Record<string, string> = {};
-    if (name) query.name = name;
+    const query: Record<string, QueryValue> = {};
+    if (name) { query.name = { $regex: name, $options: 'i' }; } // fuzzy case-insensitive
     if (breed) query.breed = breed;
     if (species) query.species = species;
-    if (adopted) query.adopted = "TRUE";
+    if (age) query.age_years = parseInt(age);
 
     const pets = await Pet.find(query);
+
     return NextResponse.json(pets);
   } catch (error) {
     console.error('Database fetch error:', error);
