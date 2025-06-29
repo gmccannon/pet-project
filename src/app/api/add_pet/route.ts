@@ -19,7 +19,7 @@ const PetSchema = z.object({
 
 export type Pet = z.infer<typeof PetSchema>;
 
-const petSchema = new mongoose.Schema({}, { strict: false });
+const petSchema = new mongoose.Schema({ ...PetSchema });
 const PetModel = mongoose.models.Pet || mongoose.model('Pet', petSchema);
 
 async function connectDB() {
@@ -37,7 +37,7 @@ export async function POST(request: NextRequest) {
 
     const result = PetSchema.safeParse(json);
     if (!result.success) {
-      return NextResponse.json({ error: 'Invalid input caught by zod', details: result.error.flatten() }, { status: 400 });
+      return NextResponse.json({ error: 'Invalid input', details: result.error.flatten() }, { status: 400 });
     }
 
     const newPet = new PetModel(result.data);

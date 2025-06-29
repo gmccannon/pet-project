@@ -1,825 +1,825 @@
 [
   {
-    "adopter_id": "A0001",
+    "adopter_email": "megan.rogers@email.com",
     "name": "Megan Rogers",
     "age": 56,
     "city": "Mcgeestad",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0002",
+    "adopter_email": "jonathan.hawkins@email.com",
     "name": "Jonathan Hawkins",
     "age": 18,
     "city": "Geneshire",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0004",
+    "adopter_email": "natalie.rivera@email.com",
     "name": "Natalie Rivera",
     "age": 51,
     "city": "North Richard",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0008",
+    "adopter_email": "joyce.garza@email.com",
     "name": "Joyce Garza",
     "age": 74,
     "city": "Port Sarachester",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0014",
+    "adopter_email": "philip.ibarra@email.com",
     "name": "Philip Ibarra",
     "age": 63,
     "city": "New Rachelview",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0016",
+    "adopter_email": "emily.fernandez@email.com",
     "name": "Emily Fernandez",
     "age": 42,
     "city": "Lake Jonathan",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0017",
+    "adopter_email": "evan.smith@email.com",
     "name": "Mr. Evan Smith",
     "age": 24,
     "city": "Port Timothy",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0018",
+    "adopter_email": "jeffery.zamora@email.com",
     "name": "Jeffery Zamora",
     "age": 49,
     "city": "Marychester",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0019",
+    "adopter_email": "kathy.cox@email.com",
     "name": "Kathy Cox",
     "age": 62,
     "city": "Joyton",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0020",
+    "adopter_email": "jody.gutierrez@email.com",
     "name": "Jody Gutierrez",
     "age": 72,
     "city": "Camposton",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0022",
+    "adopter_email": "daniel.nelson@email.com",
     "name": "Daniel Nelson",
     "age": 42,
     "city": "West Johnfurt",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0024",
+    "adopter_email": "rodney.white@email.com",
     "name": "Rodney White",
     "age": 26,
     "city": "Millerside",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0025",
+    "adopter_email": "william.wiley@email.com",
     "name": "William Wiley",
     "age": 46,
     "city": "Lake Melvinmouth",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0027",
+    "adopter_email": "william.white@email.com",
     "name": "William White",
     "age": 28,
     "city": "Andreaview",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0031",
+    "adopter_email": "jesse.castro@email.com",
     "name": "Jesse Castro",
     "age": 63,
     "city": "Ramoston",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0032",
+    "adopter_email": "steven.acevedo@email.com",
     "name": "Steven Acevedo",
     "age": 33,
     "city": "Nathanport",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0033",
+    "adopter_email": "theresa.shaw@email.com",
     "name": "Theresa Shaw",
     "age": 57,
     "city": "East Kellyburgh",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0034",
+    "adopter_email": "alyssa.brown@email.com",
     "name": "Alyssa Brown",
     "age": 45,
     "city": "Stevenville",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0035",
+    "adopter_email": "bruce.holland@email.com",
     "name": "Bruce Holland",
     "age": 35,
     "city": "Browntown",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0038",
+    "adopter_email": "scott.rivera@email.com",
     "name": "Scott Rivera",
     "age": 33,
     "city": "Port Tiffanyland",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0042",
+    "adopter_email": "katherine.montgomery@email.com",
     "name": "Katherine Montgomery",
     "age": 56,
     "city": "Hughesburgh",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0043",
+    "adopter_email": "brian.johnston@email.com",
     "name": "Brian Johnston",
     "age": 71,
     "city": "Kennedyfurt",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0046",
+    "adopter_email": "lindsay.preston@email.com",
     "name": "Lindsay Preston",
     "age": 60,
     "city": "Lake John",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0047",
+    "adopter_email": "joan.smith@email.com",
     "name": "Joan Smith",
     "age": 27,
     "city": "Pughbury",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0048",
+    "adopter_email": "jessica.burgess@email.com",
     "name": "Jessica Burgess",
     "age": 35,
     "city": "Lake Christopherfurt",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0051",
+    "adopter_email": "jacob.west@email.com",
     "name": "Jacob West",
     "age": 22,
     "city": "Andersonton",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0053",
+    "adopter_email": "jacob.copeland@email.com",
     "name": "Jacob Copeland",
     "age": 63,
     "city": "East Amandaside",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0054",
+    "adopter_email": "david.bond@email.com",
     "name": "David Bond",
     "age": 75,
     "city": "Port Christianberg",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0055",
+    "adopter_email": "madeline.smith@email.com",
     "name": "Madeline Smith",
     "age": 24,
     "city": "Williamville",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0056",
+    "adopter_email": "debra.santiago@email.com",
     "name": "Debra Santiago",
     "age": 19,
     "city": "Washingtonshire",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0057",
+    "adopter_email": "sabrina.lawson@email.com",
     "name": "Sabrina Lawson",
     "age": 46,
     "city": "Pattonville",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0058",
+    "adopter_email": "richard.wallace@email.com",
     "name": "Richard Wallace",
     "age": 28,
     "city": "North Philipchester",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0060",
+    "adopter_email": "james.wallace@email.com",
     "name": "James Wallace",
     "age": 66,
     "city": "East Kenneth",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0061",
+    "adopter_email": "angela.harmon@email.com",
     "name": "Angela Harmon",
     "age": 64,
     "city": "South Brent",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0062",
+    "adopter_email": "tammy.mason@email.com",
     "name": "Tammy Mason",
     "age": 41,
     "city": "New James",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0063",
+    "adopter_email": "brad.carney@email.com",
     "name": "Brad Carney",
     "age": 73,
     "city": "North Nicole",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0064",
+    "adopter_email": "david.brock@email.com",
     "name": "Mr. David Brock",
     "age": 60,
     "city": "Ashleyborough",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0065",
+    "adopter_email": "marie.sanchez@email.com",
     "name": "Marie Sanchez",
     "age": 64,
     "city": "Hallburgh",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0066",
+    "adopter_email": "randall.pittman@email.com",
     "name": "Randall Pittman",
     "age": 36,
     "city": "North Joanne",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0067",
+    "adopter_email": "phillip.bailey@email.com",
     "name": "Phillip Bailey",
     "age": 55,
     "city": "Lake Charles",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0069",
+    "adopter_email": "lindsey.walker@email.com",
     "name": "Lindsey Walker",
     "age": 22,
     "city": "South Nicole",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0070",
+    "adopter_email": "laura.craig@email.com",
     "name": "Laura Craig",
     "age": 53,
     "city": "Lake Lisatown",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0071",
+    "adopter_email": "amy.thompson@email.com",
     "name": "Mrs. Amy Thompson",
     "age": 73,
     "city": "Samanthaview",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0072",
+    "adopter_email": "bonnie.macdonald@email.com",
     "name": "Bonnie Macdonald",
     "age": 56,
     "city": "Jenniferbury",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0074",
+    "adopter_email": "daniel.galvan@email.com",
     "name": "Daniel Galvan",
     "age": 29,
     "city": "West Maryburgh",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0077",
+    "adopter_email": "aaron.tucker@email.com",
     "name": "Aaron Tucker",
     "age": 62,
     "city": "East William",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0080",
+    "adopter_email": "candice.gutierrez@email.com",
     "name": "Candice Gutierrez",
     "age": 48,
     "city": "Cookburgh",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0081",
+    "adopter_email": "dennis.anderson@email.com",
     "name": "Dennis Anderson",
     "age": 75,
     "city": "New Brittanystad",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0082",
+    "adopter_email": "robert.hooper@email.com",
     "name": "Robert Hooper",
     "age": 46,
     "city": "Lake Ryanmouth",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0083",
+    "adopter_email": "jennifer.espinoza@email.com",
     "name": "Mrs. Jennifer Espinoza MD",
     "age": 42,
     "city": "North Jennifer",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0084",
+    "adopter_email": "ronald.reed@email.com",
     "name": "Ronald Reed",
     "age": 27,
     "city": "South Sherry",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0085",
+    "adopter_email": "mary.campbell@email.com",
     "name": "Mary Campbell",
     "age": 65,
     "city": "Port Amandafort",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0086",
+    "adopter_email": "marissa.tapia@email.com",
     "name": "Marissa Tapia",
     "age": 27,
     "city": "East Johnland",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0088",
+    "adopter_email": "cody.knapp@email.com",
     "name": "Cody Knapp",
     "age": 50,
     "city": "New Gregoryland",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0089",
+    "adopter_email": "anthony.morris@email.com",
     "name": "Anthony Morris",
     "age": 30,
     "city": "Campbellside",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0091",
+    "adopter_email": "samantha.grimes@email.com",
     "name": "Samantha Grimes",
     "age": 36,
     "city": "West Gary",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0093",
+    "adopter_email": "mark.fuller@email.com",
     "name": "Mark Fuller",
     "age": 71,
     "city": "Lake Ana",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0094",
+    "adopter_email": "sierra.romero@email.com",
     "name": "Sierra Romero",
     "age": 75,
     "city": "South Stanley",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0096",
+    "adopter_email": "luis.brown@email.com",
     "name": "Luis Brown",
     "age": 72,
     "city": "South Robertland",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0097",
+    "adopter_email": "john.wolfe@email.com",
     "name": "John Wolfe",
     "age": 48,
     "city": "Juliaburgh",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0098",
+    "adopter_email": "rebekah.shelton@email.com",
     "name": "Rebekah Shelton",
     "age": 74,
     "city": "Lake Tina",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0101",
+    "adopter_email": "hannah.perez@email.com",
     "name": "Hannah Perez",
     "age": 63,
     "city": "Christopherview",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0102",
+    "adopter_email": "cheyenne.kaufman@email.com",
     "name": "Cheyenne Kaufman",
     "age": 38,
     "city": "East Jessica",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0104",
+    "adopter_email": "brittany.mann@email.com",
     "name": "Brittany Mann",
     "age": 75,
     "city": "South Haroldstad",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0105",
+    "adopter_email": "joseph.banks@email.com",
     "name": "Joseph Banks",
     "age": 37,
     "city": "South Christopher",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0107",
+    "adopter_email": "margaret.webb@email.com",
     "name": "Margaret Webb",
     "age": 42,
     "city": "Lake Sean",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0108",
+    "adopter_email": "jill.kelley@email.com",
     "name": "Jill Kelley",
     "age": 68,
     "city": "Vaughnport",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0109",
+    "adopter_email": "michael.moreno@email.com",
     "name": "Michael Moreno",
     "age": 68,
     "city": "Houseville",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0110",
+    "adopter_email": "jesse.todd@email.com",
     "name": "Jesse Todd",
     "age": 22,
     "city": "New Nicholas",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0111",
+    "adopter_email": "brenda.murray@email.com",
     "name": "Brenda Murray",
     "age": 23,
     "city": "North Sarah",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0112",
+    "adopter_email": "matthew.white@email.com",
     "name": "Matthew White",
     "age": 73,
     "city": "Donaldview",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0115",
+    "adopter_email": "heather.hill@email.com",
     "name": "Heather Hill",
     "age": 66,
     "city": "East Anthonyside",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0117",
+    "adopter_email": "rhonda.brown@email.com",
     "name": "Rhonda Brown",
     "age": 41,
     "city": "South Teresa",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0118",
+    "adopter_email": "cassandra.chang@email.com",
     "name": "Cassandra Chang",
     "age": 62,
     "city": "West Francisberg",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0119",
+    "adopter_email": "krista.cunningham@email.com",
     "name": "Krista Cunningham",
     "age": 68,
     "city": "Baileyshire",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0120",
+    "adopter_email": "matthew.graham@email.com",
     "name": "Matthew Graham",
     "age": 27,
     "city": "Christopherview",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0121",
+    "adopter_email": "jennifer.richardson@email.com",
     "name": "Jennifer Richardson",
     "age": 72,
     "city": "Melindabury",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0123",
+    "adopter_email": "roger.barrett@email.com",
     "name": "Mr. Roger Barrett",
     "age": 65,
     "city": "East Dawnburgh",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0125",
+    "adopter_email": "natalie.king@email.com",
     "name": "Natalie King",
     "age": 55,
     "city": "New Rachelstad",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0127",
+    "adopter_email": "nathan.becker@email.com",
     "name": "Nathan Becker",
     "age": 44,
     "city": "Port Lauriebury",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0130",
+    "adopter_email": "christine.owens@email.com",
     "name": "Christine Owens",
     "age": 24,
     "city": "Stephenport",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0131",
+    "adopter_email": "sarah.walker@email.com",
     "name": "Sarah Walker",
     "age": 24,
     "city": "Donnafort",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0132",
+    "adopter_email": "cathy.lyons@email.com",
     "name": "Cathy Lyons",
     "age": 57,
     "city": "Aguilarberg",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0136",
+    "adopter_email": "adam.townsend@email.com",
     "name": "Adam Townsend",
     "age": 31,
     "city": "Allenchester",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0137",
+    "adopter_email": "patrick.hernandez@email.com",
     "name": "Patrick Hernandez",
     "age": 36,
     "city": "Dannyton",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0141",
+    "adopter_email": "kathy.murray@email.com",
     "name": "Kathy Murray",
     "age": 52,
     "city": "North Diana",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0142",
+    "adopter_email": "taylor.martin@email.com",
     "name": "Taylor Martin",
     "age": 25,
     "city": "Bradleyfort",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0143",
+    "adopter_email": "philip.brown@email.com",
     "name": "Philip Brown",
     "age": 23,
     "city": "Romerostad",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0145",
+    "adopter_email": "matthew.green@email.com",
     "name": "Matthew Green",
     "age": 29,
     "city": "Cortezmouth",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0147",
+    "adopter_email": "crystal.crane@email.com",
     "name": "Crystal Crane",
     "age": 23,
     "city": "Johnsonmouth",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0148",
+    "adopter_email": "donald.adams@email.com",
     "name": "Donald Adams",
     "age": 67,
     "city": "Jasminetown",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0149",
+    "adopter_email": "matthew.middleton@email.com",
     "name": "Matthew Middleton",
     "age": 28,
     "city": "New Patrick",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0151",
+    "adopter_email": "cynthia.richardson@email.com",
     "name": "Cynthia Richardson",
     "age": 56,
     "city": "Allenmouth",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0152",
+    "adopter_email": "stacey.bell@email.com",
     "name": "Stacey Bell",
     "age": 70,
     "city": "Port Stephenhaven",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0157",
+    "adopter_email": "whitney.gray@email.com",
     "name": "Whitney Gray",
     "age": 62,
     "city": "East Dennisborough",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0159",
+    "adopter_email": "lisa.sanchez@email.com",
     "name": "Lisa Sanchez",
     "age": 36,
     "city": "East Hectorbury",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0160",
+    "adopter_email": "kimberly.gross@email.com",
     "name": "Kimberly Gross",
     "age": 39,
     "city": "North Sarahview",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0161",
+    "adopter_email": "christopher.johnson@email.com",
     "name": "Christopher Johnson",
     "age": 71,
     "city": "Michaelaland",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0162",
+    "adopter_email": "colton.becker@email.com",
     "name": "Colton Becker",
     "age": 45,
     "city": "Bergerville",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0164",
+    "adopter_email": "amanda.hall@email.com",
     "name": "Amanda Hall",
     "age": 25,
     "city": "Jasminefurt",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0167",
+    "adopter_email": "natasha.porter@email.com",
     "name": "Natasha Porter",
     "age": 32,
     "city": "Stephensfurt",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0172",
+    "adopter_email": "kevin.mann@email.com",
     "name": "Kevin Mann",
     "age": 64,
     "city": "Laurenmouth",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0173",
+    "adopter_email": "william.stuart@email.com",
     "name": "William Stuart",
     "age": 58,
     "city": "East Jessicaborough",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0174",
+    "adopter_email": "ashlee.davis@email.com",
     "name": "Ashlee Davis",
     "age": 75,
     "city": "Lake Richard",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0176",
+    "adopter_email": "john.johnson@email.com",
     "name": "John Johnson",
     "age": 25,
     "city": "New Stevenborough",
     "previous_pets": 3
   },
   {
-    "adopter_id": "A0177",
+    "adopter_email": "jessica.leon@email.com",
     "name": "Jessica Leon",
     "age": 32,
     "city": "Morrowfurt",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0178",
+    "adopter_email": "kevin.jones@email.com",
     "name": "Kevin Jones",
     "age": 59,
     "city": "New Stephanieville",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0179",
+    "adopter_email": "vincent.combs@email.com",
     "name": "Vincent Combs",
     "age": 58,
     "city": "Sandersfurt",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0180",
+    "adopter_email": "lori.davis@email.com",
     "name": "Lori Davis",
     "age": 43,
     "city": "New Elijah",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0181",
+    "adopter_email": "donald.adams@email.com",
     "name": "Donald Adams",
     "age": 30,
     "city": "Williamsbury",
     "previous_pets": 2
   },
   {
-    "adopter_id": "A0183",
+    "adopter_email": "sharon.clark@email.com",
     "name": "Sharon Clark",
     "age": 72,
     "city": "Wareshire",
     "previous_pets": 0
   },
   {
-    "adopter_id": "A0184",
+    "adopter_email": "ariel.johnson@email.com",
     "name": "Ariel Johnson",
     "age": 37,
     "city": "New Cindy",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0185",
+    "adopter_email": "charles.torres@email.com",
     "name": "Charles Torres",
     "age": 62,
     "city": "North Oliviastad",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0189",
+    "adopter_email": "tracy.flores@email.com",
     "name": "Tracy Flores",
     "age": 48,
     "city": "Jaredland",
     "previous_pets": 4
   },
   {
-    "adopter_id": "A0191",
+    "adopter_email": "michael.thornton@email.com",
     "name": "Michael Thornton",
     "age": 30,
     "city": "Lake Christopher",
     "previous_pets": 5
   },
   {
-    "adopter_id": "A0192",
+    "adopter_email": "diana.taylor@email.com",
     "name": "Diana Taylor",
     "age": 61,
     "city": "West Stevenfort",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0194",
+    "adopter_email": "sheryl.matthews@email.com",
     "name": "Sheryl Matthews",
     "age": 20,
     "city": "Blackchester",
     "previous_pets": 1
   },
   {
-    "adopter_id": "A0199",
+    "adopter_email": "derek.martinez@email.com",
     "name": "Derek Martinez",
     "age": 25,
     "city": "South Michelle",

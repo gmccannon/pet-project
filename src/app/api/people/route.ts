@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import mongoose from 'mongoose';
 
+type QueryValue = string | number | { $regex: string; $options: string; }
+
 const adopterSchema = new mongoose.Schema({}, { strict: false });
 const Adopter = mongoose.models.Adopter || mongoose.model('Adopter', adopterSchema);
 
@@ -22,8 +24,8 @@ export async function GET(request: NextRequest) {
     const age = searchParams.get('age')?.trim();
     const previousPets = searchParams.get('previous_pets')?.trim();
 
-    const query: Record<string, any> = {};
-    if (name) query.name = name;
+    const query: Record<string, QueryValue> = {};
+    if (name) { query.name = { $regex: name, $options: 'i' }; } // fuzzy case-insensitive
     if (city) query.city = city;
     if (age) query.age = parseInt(age);
     if (previousPets) query.previous_pets = parseInt(previousPets);

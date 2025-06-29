@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import { z } from 'zod';
 
 export const AdopterSchema = z.object({
-  adopter_id: z.string(),
+  adopter_id: z.string().email(),
   name: z.string().optional(),
   age: z.number().optional(),
   city: z.string().optional(),
@@ -12,7 +12,7 @@ export const AdopterSchema = z.object({
 
 export type Adopter = z.infer<typeof AdopterSchema>;
 
-const adopterSchema = new mongoose.Schema({}, { strict: false });
+const adopterSchema = new mongoose.Schema({ ...AdopterSchema });
 const Adopter = mongoose.models.Adopter || mongoose.model('Adopter', adopterSchema);
 
 async function connectDB() {
