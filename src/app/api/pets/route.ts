@@ -17,13 +17,13 @@ export async function GET(request: NextRequest) {
     await connectDB();
 
     const { searchParams } = new URL(request.url);
-    const name = searchParams.get('pet_name')?.trim();
+    const name = searchParams.get('name')?.trim();
     const breed = searchParams.get('breed')?.trim();
     const species = searchParams.get('species')?.trim();
     const adopted = searchParams.get('adopted')?.trim();
 
     const query: Record<string, string> = {};
-    if (name) query.pet_name = name;
+    if (name) query.name = name;
     if (breed) query.breed = breed;
     if (species) query.species = species;
     if (adopted) query.adopted = "TRUE";
