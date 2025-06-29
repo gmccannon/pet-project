@@ -1,10 +1,15 @@
 import { NextResponse } from 'next/server'
 import mongoose from 'mongoose'
-import seedData from '@/app/api/seed/seeddata.json'
+import petsData from '@/app/api/seed/normalized_pets.json'
+import adoptersData from '@/app/api/seed/normalized_adopters.json'
 
-// Define schema
+// Pet schema
 const petSchema = new mongoose.Schema({}, { strict: false })
 const Pet = mongoose.models.Pet || mongoose.model('Pet', petSchema)
+
+// Adopter schema
+const adopterSchema = new mongoose.Schema({}, { strict: false })
+const Adopter = mongoose.models.Adopter || mongoose.model('Adopter', adopterSchema)
 
 async function connectDB() {
   if (mongoose.connection.readyState === 0) {
@@ -18,11 +23,13 @@ export async function POST() {
   try {
     await connectDB()
 
-    // clear collection before seeding
+    // Clear database
     await Pet.deleteMany({})
+    await Adopter.deleteMany({})
 
-    // Insert seed data
-    await Pet.insertMany(seedData)
+    // Populate database
+    await Pet.insertMany(petsData)
+    await Adopter.insertMany(adoptersData)
 
     return NextResponse.json({ message: 'Database seeded successfully' }, { status: 200 })
   } catch (err: any) {

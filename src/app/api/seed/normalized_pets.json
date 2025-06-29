@@ -1,0 +1,3002 @@
+[
+  {
+    "el_file": "P0001",
+    "name": "Sandra",
+    "species": "Dog",
+    "breed": "Yorkshire Terrier",
+    "age_years": 2,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2024-10-10T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-03-11T00:00:00",
+      "adopter_id": "A0001"
+    }
+  },
+  {
+    "el_file": "P0002",
+    "name": "Brian",
+    "species": "Cat",
+    "breed": "Tonkinese",
+    "age_years": 1,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2023-09-09T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-02-10T00:00:00",
+      "adopter_id": "A0002"
+    }
+  },
+  {
+    "el_file": "P0003",
+    "name": "Timothy",
+    "species": "Bird",
+    "breed": "Amazon Parrot",
+    "age_years": 4,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2023-10-03T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2023-10-17T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0004",
+    "name": "Karl",
+    "species": "Dog",
+    "breed": "German Shepherd",
+    "age_years": 1,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2024-07-28T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-08-12T00:00:00",
+      "adopter_id": "A0004"
+    }
+  },
+  {
+    "el_file": "P0005",
+    "name": "Sarah",
+    "species": "Rabbit",
+    "breed": "Dutch",
+    "age_years": 1,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2024-02-21T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-02-26T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0006",
+    "name": "Dawn",
+    "species": "Dog",
+    "breed": "Labrador Retriever",
+    "age_years": 15,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2025-06-14T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-06-17T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0007",
+    "name": "Chad",
+    "species": "Dog",
+    "breed": "Siberian Husky",
+    "age_years": 15,
+    "gender": "Female",
+    "color": "Mixed",
+    "arrival_date": "2025-04-03T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-04-21T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0008",
+    "name": "Jeanne",
+    "species": "Hamster",
+    "breed": "Campbell's Dwarf",
+    "age_years": 4,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2024-06-17T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-08-30T00:00:00",
+      "adopter_id": "A0008"
+    }
+  },
+  {
+    "el_file": "P0009",
+    "name": "Ryan",
+    "species": "Cat",
+    "breed": "Abyssinian",
+    "age_years": 11,
+    "gender": "Female",
+    "color": "Mixed",
+    "arrival_date": "2023-09-08T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2023-09-25T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0010",
+    "name": "Richard",
+    "species": "Dog",
+    "breed": "French Bulldog",
+    "age_years": 1,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2025-01-06T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-02-03T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0011",
+    "name": "Charles",
+    "species": "Hamster",
+    "breed": "Chinese",
+    "age_years": 7,
+    "gender": "Male",
+    "color": "Grey",
+    "arrival_date": "2024-12-25T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-01-11T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0012",
+    "name": "James",
+    "species": "Cat",
+    "breed": "Bengal",
+    "age_years": 12,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2024-06-12T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-06-15T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0013",
+    "name": "Erika",
+    "species": "Cat",
+    "breed": "Bengal",
+    "age_years": 13,
+    "gender": "Male",
+    "color": "Golden",
+    "arrival_date": "2025-05-04T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-05-25T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0014",
+    "name": "Robin",
+    "species": "Rabbit",
+    "breed": "Dutch",
+    "age_years": 13,
+    "gender": "Female",
+    "color": "Black",
+    "arrival_date": "2023-09-14T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-02-13T00:00:00",
+      "adopter_id": "A0014"
+    }
+  },
+  {
+    "el_file": "P0015",
+    "name": "Jennifer",
+    "species": "Rabbit",
+    "breed": "Netherland Dwarf",
+    "age_years": 6,
+    "gender": "Male",
+    "color": "Mixed",
+    "arrival_date": "2024-06-04T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-07-03T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0016",
+    "name": "Robert",
+    "species": "Rabbit",
+    "breed": "Silver Marten",
+    "age_years": 1,
+    "gender": "Female",
+    "color": "Black",
+    "arrival_date": "2024-07-03T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-08-15T00:00:00",
+      "adopter_id": "A0016"
+    }
+  },
+  {
+    "el_file": "P0017",
+    "name": "Tamara",
+    "species": "Hamster",
+    "breed": "Roborovski",
+    "age_years": 1,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2024-01-19T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-06-02T00:00:00",
+      "adopter_id": "A0017"
+    }
+  },
+  {
+    "el_file": "P0018",
+    "name": "Kayla",
+    "species": "Cat",
+    "breed": "Maine Coon",
+    "age_years": 4,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2024-04-02T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-06-29T00:00:00",
+      "adopter_id": "A0018"
+    }
+  },
+  {
+    "el_file": "P0019",
+    "name": "Courtney",
+    "species": "Bird",
+    "breed": "Conure",
+    "age_years": 9,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2024-06-23T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-10-10T00:00:00",
+      "adopter_id": "A0019"
+    }
+  },
+  {
+    "el_file": "P0020",
+    "name": "Craig",
+    "species": "Hamster",
+    "breed": "Syrian",
+    "age_years": 12,
+    "gender": "Female",
+    "color": "Grey",
+    "arrival_date": "2024-07-25T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-11-13T00:00:00",
+      "adopter_id": "A0020"
+    }
+  },
+  {
+    "el_file": "P0021",
+    "name": "David",
+    "species": "Cat",
+    "breed": "Persian",
+    "age_years": 5,
+    "gender": "Female",
+    "color": "Mixed",
+    "arrival_date": "2025-05-03T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-05-25T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0022",
+    "name": "Andrea",
+    "species": "Cat",
+    "breed": "Norwegian Forest Cat",
+    "age_years": 15,
+    "gender": "Male",
+    "color": "Grey",
+    "arrival_date": "2023-10-18T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-03-31T00:00:00",
+      "adopter_id": "A0022"
+    }
+  },
+  {
+    "el_file": "P0023",
+    "name": "Brian",
+    "species": "Hamster",
+    "breed": "Winter White",
+    "age_years": 5,
+    "gender": "Female",
+    "color": "Brown",
+    "arrival_date": "2024-12-05T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-12-11T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0024",
+    "name": "Alyssa",
+    "species": "Cat",
+    "breed": "Maine Coon",
+    "age_years": 8,
+    "gender": "Male",
+    "color": "Golden",
+    "arrival_date": "2023-08-21T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2023-08-25T00:00:00",
+      "adopter_id": "A0024"
+    }
+  },
+  {
+    "el_file": "P0025",
+    "name": "Brian",
+    "species": "Bird",
+    "breed": "Canary",
+    "age_years": 5,
+    "gender": "Male",
+    "color": "Black",
+    "arrival_date": "2023-12-28T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-04-03T00:00:00",
+      "adopter_id": "A0025"
+    }
+  },
+  {
+    "el_file": "P0026",
+    "name": "Pamela",
+    "species": "Rabbit",
+    "breed": "Dutch",
+    "age_years": 12,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2024-06-14T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-07-06T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0027",
+    "name": "Robin",
+    "species": "Cat",
+    "breed": "Oriental Shorthair",
+    "age_years": 9,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2025-04-08T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-18T00:00:00",
+      "adopter_id": "A0027"
+    }
+  },
+  {
+    "el_file": "P0028",
+    "name": "Allison",
+    "species": "Hamster",
+    "breed": "Dwarf Campbell",
+    "age_years": 15,
+    "gender": "Female",
+    "color": "Grey",
+    "arrival_date": "2024-05-06T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-06-01T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0029",
+    "name": "Johnny",
+    "species": "Cat",
+    "breed": "Maine Coon",
+    "age_years": 15,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2025-05-24T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-05-25T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0030",
+    "name": "Lisa",
+    "species": "Hamster",
+    "breed": "European Hamster",
+    "age_years": 13,
+    "gender": "Male",
+    "color": "Golden",
+    "arrival_date": "2024-03-18T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-03-23T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0031",
+    "name": "Andrea",
+    "species": "Hamster",
+    "breed": "Syrian",
+    "age_years": 9,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2024-11-01T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-11-27T00:00:00",
+      "adopter_id": "A0031"
+    }
+  },
+  {
+    "el_file": "P0032",
+    "name": "Emily",
+    "species": "Cat",
+    "breed": "Sphynx",
+    "age_years": 14,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2024-03-07T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-05-06T00:00:00",
+      "adopter_id": "A0032"
+    }
+  },
+  {
+    "el_file": "P0033",
+    "name": "Ashley",
+    "species": "Dog",
+    "breed": "Boxer",
+    "age_years": 5,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2025-02-14T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-05-15T00:00:00",
+      "adopter_id": "A0033"
+    }
+  },
+  {
+    "el_file": "P0034",
+    "name": "Maureen",
+    "species": "Dog",
+    "breed": "Yorkshire Terrier",
+    "age_years": 14,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2023-09-02T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2023-12-11T00:00:00",
+      "adopter_id": "A0034"
+    }
+  },
+  {
+    "el_file": "P0035",
+    "name": "Miranda",
+    "species": "Hamster",
+    "breed": "Russian Dwarf",
+    "age_years": 10,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2024-02-03T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-02-04T00:00:00",
+      "adopter_id": "A0035"
+    }
+  },
+  {
+    "el_file": "P0036",
+    "name": "Denise",
+    "species": "Cat",
+    "breed": "Oriental Shorthair",
+    "age_years": 3,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2024-07-07T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-07-30T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0037",
+    "name": "Evelyn",
+    "species": "Bird",
+    "breed": "Amazon Parrot",
+    "age_years": 1,
+    "gender": "Male",
+    "color": "Golden",
+    "arrival_date": "2024-11-28T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-12-10T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0038",
+    "name": "Anthony",
+    "species": "Bird",
+    "breed": "Parakeet",
+    "age_years": 9,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2023-10-18T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-04-15T00:00:00",
+      "adopter_id": "A0038"
+    }
+  },
+  {
+    "el_file": "P0039",
+    "name": "Stephanie",
+    "species": "Hamster",
+    "breed": "Roborovski",
+    "age_years": 15,
+    "gender": "Male",
+    "color": "Grey",
+    "arrival_date": "2025-03-23T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-04-15T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0040",
+    "name": "Christina",
+    "species": "Dog",
+    "breed": "Great Dane",
+    "age_years": 3,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2025-03-27T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-04-18T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0041",
+    "name": "Debra",
+    "species": "Dog",
+    "breed": "Siberian Husky",
+    "age_years": 7,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2024-03-13T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-03-13T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0042",
+    "name": "Nicholas",
+    "species": "Hamster",
+    "breed": "Korean",
+    "age_years": 8,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2024-02-23T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-05-18T00:00:00",
+      "adopter_id": "A0042"
+    }
+  },
+  {
+    "el_file": "P0043",
+    "name": "Jasmine",
+    "species": "Dog",
+    "breed": "Siberian Husky",
+    "age_years": 6,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2024-10-03T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-01-24T00:00:00",
+      "adopter_id": "A0043"
+    }
+  },
+  {
+    "el_file": "P0044",
+    "name": "Daniel",
+    "species": "Bird",
+    "breed": "Conure",
+    "age_years": 10,
+    "gender": "Female",
+    "color": "Brown",
+    "arrival_date": "2024-06-05T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-06-20T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0045",
+    "name": "James",
+    "species": "Hamster",
+    "breed": "Syrian",
+    "age_years": 5,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2024-11-21T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-12-01T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0046",
+    "name": "Donna",
+    "species": "Cat",
+    "breed": "Russian Blue",
+    "age_years": 8,
+    "gender": "Male",
+    "color": "Black",
+    "arrival_date": "2023-12-10T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-05-20T00:00:00",
+      "adopter_id": "A0046"
+    }
+  },
+  {
+    "el_file": "P0047",
+    "name": "Timothy",
+    "species": "Bird",
+    "breed": "Macaw",
+    "age_years": 7,
+    "gender": "Male",
+    "color": "Grey",
+    "arrival_date": "2023-11-16T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-03-28T00:00:00",
+      "adopter_id": "A0047"
+    }
+  },
+  {
+    "el_file": "P0048",
+    "name": "Lisa",
+    "species": "Dog",
+    "breed": "Beagle",
+    "age_years": 13,
+    "gender": "Female",
+    "color": "Mixed",
+    "arrival_date": "2025-01-07T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-01-31T00:00:00",
+      "adopter_id": "A0048"
+    }
+  },
+  {
+    "el_file": "P0049",
+    "name": "Frank",
+    "species": "Dog",
+    "breed": "German Shepherd",
+    "age_years": 7,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2025-04-03T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-04-21T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0050",
+    "name": "Stephen",
+    "species": "Hamster",
+    "breed": "Russian Dwarf",
+    "age_years": 3,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2024-11-17T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-12-01T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0051",
+    "name": "Walter",
+    "species": "Cat",
+    "breed": "Persian",
+    "age_years": 6,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2024-08-20T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-01-15T00:00:00",
+      "adopter_id": "A0051"
+    }
+  },
+  {
+    "el_file": "P0052",
+    "name": "Kelly",
+    "species": "Hamster",
+    "breed": "Chinese",
+    "age_years": 15,
+    "gender": "Female",
+    "color": "Brown",
+    "arrival_date": "2023-08-02T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2023-08-22T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0053",
+    "name": "Tom",
+    "species": "Bird",
+    "breed": "African Grey Parrot",
+    "age_years": 7,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2025-04-30T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-05-29T00:00:00",
+      "adopter_id": "A0053"
+    }
+  },
+  {
+    "el_file": "P0054",
+    "name": "Michelle",
+    "species": "Hamster",
+    "breed": "Winter White",
+    "age_years": 4,
+    "gender": "Female",
+    "color": "Black",
+    "arrival_date": "2024-11-27T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-12-01T00:00:00",
+      "adopter_id": "A0054"
+    }
+  },
+  {
+    "el_file": "P0055",
+    "name": "Jill",
+    "species": "Dog",
+    "breed": "Shih Tzu",
+    "age_years": 4,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2025-05-06T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-05-19T00:00:00",
+      "adopter_id": "A0055"
+    }
+  },
+  {
+    "el_file": "P0056",
+    "name": "Adrienne",
+    "species": "Hamster",
+    "breed": "European Hamster",
+    "age_years": 1,
+    "gender": "Female",
+    "color": "Grey",
+    "arrival_date": "2023-07-03T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2023-08-10T00:00:00",
+      "adopter_id": "A0056"
+    }
+  },
+  {
+    "el_file": "P0057",
+    "name": "Richard",
+    "species": "Bird",
+    "breed": "Macaw",
+    "age_years": 11,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2025-04-23T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-10T00:00:00",
+      "adopter_id": "A0057"
+    }
+  },
+  {
+    "el_file": "P0058",
+    "name": "John",
+    "species": "Rabbit",
+    "breed": "Mini Rex",
+    "age_years": 6,
+    "gender": "Male",
+    "color": "Black",
+    "arrival_date": "2023-10-28T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2023-12-07T00:00:00",
+      "adopter_id": "A0058"
+    }
+  },
+  {
+    "el_file": "P0059",
+    "name": "Daniel",
+    "species": "Hamster",
+    "breed": "Dwarf Campbell",
+    "age_years": 11,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2025-05-18T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-05-31T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0060",
+    "name": "Christopher",
+    "species": "Hamster",
+    "breed": "Korean",
+    "age_years": 13,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2023-11-27T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-01-30T00:00:00",
+      "adopter_id": "A0060"
+    }
+  },
+  {
+    "el_file": "P0061",
+    "name": "Joseph",
+    "species": "Bird",
+    "breed": "Conure",
+    "age_years": 9,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2025-06-13T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-18T00:00:00",
+      "adopter_id": "A0061"
+    }
+  },
+  {
+    "el_file": "P0062",
+    "name": "David",
+    "species": "Bird",
+    "breed": "Cockatoo",
+    "age_years": 2,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2024-07-06T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-09-21T00:00:00",
+      "adopter_id": "A0062"
+    }
+  },
+  {
+    "el_file": "P0063",
+    "name": "Robert",
+    "species": "Hamster",
+    "breed": "Korean",
+    "age_years": 13,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2024-01-16T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-04-28T00:00:00",
+      "adopter_id": "A0063"
+    }
+  },
+  {
+    "el_file": "P0064",
+    "name": "John",
+    "species": "Dog",
+    "breed": "Boxer",
+    "age_years": 8,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2024-11-22T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-01-15T00:00:00",
+      "adopter_id": "A0064"
+    }
+  },
+  {
+    "el_file": "P0065",
+    "name": "Nathan",
+    "species": "Bird",
+    "breed": "Cockatiel",
+    "age_years": 1,
+    "gender": "Male",
+    "color": "Golden",
+    "arrival_date": "2025-06-13T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-18T00:00:00",
+      "adopter_id": "A0065"
+    }
+  },
+  {
+    "el_file": "P0066",
+    "name": "Alicia",
+    "species": "Cat",
+    "breed": "British Shorthair",
+    "age_years": 4,
+    "gender": "Female",
+    "color": "Black",
+    "arrival_date": "2024-06-19T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-08-25T00:00:00",
+      "adopter_id": "A0066"
+    }
+  },
+  {
+    "el_file": "P0067",
+    "name": "Jeffrey",
+    "species": "Bird",
+    "breed": "Amazon Parrot",
+    "age_years": 13,
+    "gender": "Female",
+    "color": "Black",
+    "arrival_date": "2024-09-07T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-10-26T00:00:00",
+      "adopter_id": "A0067"
+    }
+  },
+  {
+    "el_file": "P0068",
+    "name": "Evelyn",
+    "species": "Bird",
+    "breed": "Conure",
+    "age_years": 14,
+    "gender": "Female",
+    "color": "Brown",
+    "arrival_date": "2025-04-24T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-05-06T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0069",
+    "name": "Roberta",
+    "species": "Cat",
+    "breed": "Bengal",
+    "age_years": 7,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2024-04-09T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-04-29T00:00:00",
+      "adopter_id": "A0069"
+    }
+  },
+  {
+    "el_file": "P0070",
+    "name": "Linda",
+    "species": "Bird",
+    "breed": "Macaw",
+    "age_years": 14,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2024-07-19T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-01-11T00:00:00",
+      "adopter_id": "A0070"
+    }
+  },
+  {
+    "el_file": "P0071",
+    "name": "Gary",
+    "species": "Bird",
+    "breed": "Budgerigar",
+    "age_years": 13,
+    "gender": "Male",
+    "color": "Mixed",
+    "arrival_date": "2025-05-31T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-18T00:00:00",
+      "adopter_id": "A0071"
+    }
+  },
+  {
+    "el_file": "P0072",
+    "name": "Jeremy",
+    "species": "Hamster",
+    "breed": "Syrian",
+    "age_years": 15,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2025-06-05T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-18T00:00:00",
+      "adopter_id": "A0072"
+    }
+  },
+  {
+    "el_file": "P0073",
+    "name": "Samantha",
+    "species": "Rabbit",
+    "breed": "Polish",
+    "age_years": 4,
+    "gender": "Female",
+    "color": "Mixed",
+    "arrival_date": "2025-05-20T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-05-22T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0074",
+    "name": "Brian",
+    "species": "Cat",
+    "breed": "Devon Rex",
+    "age_years": 13,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2025-04-06T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-18T00:00:00",
+      "adopter_id": "A0074"
+    }
+  },
+  {
+    "el_file": "P0075",
+    "name": "Alyssa",
+    "species": "Cat",
+    "breed": "Siamese",
+    "age_years": 1,
+    "gender": "Male",
+    "color": "Grey",
+    "arrival_date": "2024-04-14T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-05-02T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0076",
+    "name": "Jacqueline",
+    "species": "Hamster",
+    "breed": "Campbell's Dwarf",
+    "age_years": 14,
+    "gender": "Male",
+    "color": "Golden",
+    "arrival_date": "2023-10-15T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2023-10-31T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0077",
+    "name": "Herbert",
+    "species": "Hamster",
+    "breed": "Campbell's Dwarf",
+    "age_years": 15,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2024-12-06T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-04-03T00:00:00",
+      "adopter_id": "A0077"
+    }
+  },
+  {
+    "el_file": "P0078",
+    "name": "Juan",
+    "species": "Cat",
+    "breed": "Bengal",
+    "age_years": 4,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2024-09-19T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-09-23T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0079",
+    "name": "Beth",
+    "species": "Cat",
+    "breed": "Devon Rex",
+    "age_years": 5,
+    "gender": "Female",
+    "color": "Black",
+    "arrival_date": "2025-01-29T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-02-06T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0080",
+    "name": "Gregory",
+    "species": "Bird",
+    "breed": "Parakeet",
+    "age_years": 5,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2024-04-22T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-07-01T00:00:00",
+      "adopter_id": "A0080"
+    }
+  },
+  {
+    "el_file": "P0081",
+    "name": "Heather",
+    "species": "Bird",
+    "breed": "Conure",
+    "age_years": 8,
+    "gender": "Female",
+    "color": "Grey",
+    "arrival_date": "2023-11-19T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-02-29T00:00:00",
+      "adopter_id": "A0081"
+    }
+  },
+  {
+    "el_file": "P0082",
+    "name": "Raymond",
+    "species": "Dog",
+    "breed": "Golden Retriever",
+    "age_years": 14,
+    "gender": "Female",
+    "color": "Brown",
+    "arrival_date": "2023-08-13T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2023-10-21T00:00:00",
+      "adopter_id": "A0082"
+    }
+  },
+  {
+    "el_file": "P0083",
+    "name": "Richard",
+    "species": "Cat",
+    "breed": "Devon Rex",
+    "age_years": 14,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2023-10-02T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2023-10-05T00:00:00",
+      "adopter_id": "A0083"
+    }
+  },
+  {
+    "el_file": "P0084",
+    "name": "Regina",
+    "species": "Hamster",
+    "breed": "Syrian",
+    "age_years": 2,
+    "gender": "Female",
+    "color": "Mixed",
+    "arrival_date": "2024-02-25T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-07-28T00:00:00",
+      "adopter_id": "A0084"
+    }
+  },
+  {
+    "el_file": "P0085",
+    "name": "Calvin",
+    "species": "Dog",
+    "breed": "Dachshund",
+    "age_years": 13,
+    "gender": "Male",
+    "color": "Mixed",
+    "arrival_date": "2025-02-15T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-03-12T00:00:00",
+      "adopter_id": "A0085"
+    }
+  },
+  {
+    "el_file": "P0086",
+    "name": "Christopher",
+    "species": "Dog",
+    "breed": "Yorkshire Terrier",
+    "age_years": 14,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2023-09-09T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-02-12T00:00:00",
+      "adopter_id": "A0086"
+    }
+  },
+  {
+    "el_file": "P0087",
+    "name": "John",
+    "species": "Cat",
+    "breed": "Siamese",
+    "age_years": 5,
+    "gender": "Female",
+    "color": "Mixed",
+    "arrival_date": "2025-01-19T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-02-17T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0088",
+    "name": "John",
+    "species": "Bird",
+    "breed": "Budgerigar",
+    "age_years": 7,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2025-03-16T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-03-30T00:00:00",
+      "adopter_id": "A0088"
+    }
+  },
+  {
+    "el_file": "P0089",
+    "name": "Mark",
+    "species": "Cat",
+    "breed": "Norwegian Forest Cat",
+    "age_years": 12,
+    "gender": "Female",
+    "color": "Mixed",
+    "arrival_date": "2024-07-01T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-08-12T00:00:00",
+      "adopter_id": "A0089"
+    }
+  },
+  {
+    "el_file": "P0090",
+    "name": "Jeffrey",
+    "species": "Hamster",
+    "breed": "Korean",
+    "age_years": 4,
+    "gender": "Female",
+    "color": "Grey",
+    "arrival_date": "2024-09-25T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-10-07T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0091",
+    "name": "Ashley",
+    "species": "Bird",
+    "breed": "Cockatiel",
+    "age_years": 2,
+    "gender": "Male",
+    "color": "Golden",
+    "arrival_date": "2024-09-14T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-09-15T00:00:00",
+      "adopter_id": "A0091"
+    }
+  },
+  {
+    "el_file": "P0092",
+    "name": "Maria",
+    "species": "Hamster",
+    "breed": "Korean",
+    "age_years": 6,
+    "gender": "Female",
+    "color": "Brown",
+    "arrival_date": "2025-04-25T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-04-29T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0093",
+    "name": "Chelsea",
+    "species": "Rabbit",
+    "breed": "English Angora",
+    "age_years": 9,
+    "gender": "Female",
+    "color": "Brown",
+    "arrival_date": "2024-06-17T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-06-21T00:00:00",
+      "adopter_id": "A0093"
+    }
+  },
+  {
+    "el_file": "P0094",
+    "name": "Lucas",
+    "species": "Cat",
+    "breed": "British Shorthair",
+    "age_years": 3,
+    "gender": "Male",
+    "color": "Golden",
+    "arrival_date": "2023-09-06T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2023-10-08T00:00:00",
+      "adopter_id": "A0094"
+    }
+  },
+  {
+    "el_file": "P0095",
+    "name": "Kelsey",
+    "species": "Rabbit",
+    "breed": "Netherland Dwarf",
+    "age_years": 2,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2024-03-26T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-04-03T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0096",
+    "name": "Alexis",
+    "species": "Rabbit",
+    "breed": "Dutch",
+    "age_years": 13,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2023-10-21T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-01-03T00:00:00",
+      "adopter_id": "A0096"
+    }
+  },
+  {
+    "el_file": "P0097",
+    "name": "Heather",
+    "species": "Rabbit",
+    "breed": "Lionhead",
+    "age_years": 1,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2024-10-27T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-11-12T00:00:00",
+      "adopter_id": "A0097"
+    }
+  },
+  {
+    "el_file": "P0098",
+    "name": "Michael",
+    "species": "Hamster",
+    "breed": "Winter White",
+    "age_years": 3,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2024-01-13T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-02-29T00:00:00",
+      "adopter_id": "A0098"
+    }
+  },
+  {
+    "el_file": "P0099",
+    "name": "Travis",
+    "species": "Cat",
+    "breed": "Maine Coon",
+    "age_years": 9,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2023-12-01T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2023-12-25T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0100",
+    "name": "Charles",
+    "species": "Cat",
+    "breed": "Sphynx",
+    "age_years": 7,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2023-07-23T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2023-08-21T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0101",
+    "name": "Kelsey",
+    "species": "Dog",
+    "breed": "Poodle",
+    "age_years": 8,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2023-10-30T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-01-03T00:00:00",
+      "adopter_id": "A0101"
+    }
+  },
+  {
+    "el_file": "P0102",
+    "name": "Gregory",
+    "species": "Rabbit",
+    "breed": "Lionhead",
+    "age_years": 11,
+    "gender": "Male",
+    "color": "Black",
+    "arrival_date": "2025-03-06T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-18T00:00:00",
+      "adopter_id": "A0102"
+    }
+  },
+  {
+    "el_file": "P0103",
+    "name": "Nathaniel",
+    "species": "Bird",
+    "breed": "Conure",
+    "age_years": 2,
+    "gender": "Female",
+    "color": "Black",
+    "arrival_date": "2024-12-25T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-12-31T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0104",
+    "name": "Paula",
+    "species": "Bird",
+    "breed": "Lovebird",
+    "age_years": 3,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2024-01-07T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-02-25T00:00:00",
+      "adopter_id": "A0104"
+    }
+  },
+  {
+    "el_file": "P0105",
+    "name": "Angel",
+    "species": "Dog",
+    "breed": "Bulldog",
+    "age_years": 8,
+    "gender": "Female",
+    "color": "Black",
+    "arrival_date": "2024-09-14T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-11-05T00:00:00",
+      "adopter_id": "A0105"
+    }
+  },
+  {
+    "el_file": "P0106",
+    "name": "Patricia",
+    "species": "Hamster",
+    "breed": "Chinese",
+    "age_years": 12,
+    "gender": "Male",
+    "color": "Golden",
+    "arrival_date": "2025-03-23T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-04-14T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0107",
+    "name": "Kimberly",
+    "species": "Rabbit",
+    "breed": "Lionhead",
+    "age_years": 4,
+    "gender": "Male",
+    "color": "Black",
+    "arrival_date": "2025-05-03T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-18T00:00:00",
+      "adopter_id": "A0107"
+    }
+  },
+  {
+    "el_file": "P0108",
+    "name": "Tammy",
+    "species": "Dog",
+    "breed": "Boxer",
+    "age_years": 15,
+    "gender": "Female",
+    "color": "Mixed",
+    "arrival_date": "2024-05-14T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-10-19T00:00:00",
+      "adopter_id": "A0108"
+    }
+  },
+  {
+    "el_file": "P0109",
+    "name": "Ann",
+    "species": "Hamster",
+    "breed": "Roborovski",
+    "age_years": 5,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2023-07-29T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2023-09-25T00:00:00",
+      "adopter_id": "A0109"
+    }
+  },
+  {
+    "el_file": "P0110",
+    "name": "Jennifer",
+    "species": "Rabbit",
+    "breed": "Lionhead",
+    "age_years": 12,
+    "gender": "Male",
+    "color": "Black",
+    "arrival_date": "2024-06-24T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-10-08T00:00:00",
+      "adopter_id": "A0110"
+    }
+  },
+  {
+    "el_file": "P0111",
+    "name": "Robert",
+    "species": "Hamster",
+    "breed": "Winter White",
+    "age_years": 1,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2023-09-02T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-01-19T00:00:00",
+      "adopter_id": "A0111"
+    }
+  },
+  {
+    "el_file": "P0112",
+    "name": "Rebecca",
+    "species": "Cat",
+    "breed": "Devon Rex",
+    "age_years": 10,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2023-12-26T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-06-05T00:00:00",
+      "adopter_id": "A0112"
+    }
+  },
+  {
+    "el_file": "P0113",
+    "name": "Tiffany",
+    "species": "Cat",
+    "breed": "Birman",
+    "age_years": 9,
+    "gender": "Female",
+    "color": "Black",
+    "arrival_date": "2024-12-15T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-12-25T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0114",
+    "name": "Faith",
+    "species": "Dog",
+    "breed": "Golden Retriever",
+    "age_years": 10,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2025-02-12T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-03-10T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0115",
+    "name": "Rachel",
+    "species": "Rabbit",
+    "breed": "Mini Rex",
+    "age_years": 4,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2025-04-02T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-01T00:00:00",
+      "adopter_id": "A0115"
+    }
+  },
+  {
+    "el_file": "P0116",
+    "name": "Nancy",
+    "species": "Dog",
+    "breed": "Beagle",
+    "age_years": 9,
+    "gender": "Male",
+    "color": "Golden",
+    "arrival_date": "2023-12-04T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2023-12-25T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0117",
+    "name": "Margaret",
+    "species": "Bird",
+    "breed": "Lovebird",
+    "age_years": 9,
+    "gender": "Male",
+    "color": "Golden",
+    "arrival_date": "2024-03-17T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-08-27T00:00:00",
+      "adopter_id": "A0117"
+    }
+  },
+  {
+    "el_file": "P0118",
+    "name": "Phillip",
+    "species": "Rabbit",
+    "breed": "Lionhead",
+    "age_years": 9,
+    "gender": "Male",
+    "color": "Grey",
+    "arrival_date": "2024-03-03T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-05-07T00:00:00",
+      "adopter_id": "A0118"
+    }
+  },
+  {
+    "el_file": "P0119",
+    "name": "Bobby",
+    "species": "Dog",
+    "breed": "French Bulldog",
+    "age_years": 4,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2023-09-13T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2023-11-08T00:00:00",
+      "adopter_id": "A0119"
+    }
+  },
+  {
+    "el_file": "P0120",
+    "name": "Kathryn",
+    "species": "Bird",
+    "breed": "Macaw",
+    "age_years": 7,
+    "gender": "Male",
+    "color": "Mixed",
+    "arrival_date": "2024-08-17T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-01-08T00:00:00",
+      "adopter_id": "A0120"
+    }
+  },
+  {
+    "el_file": "P0121",
+    "name": "Kimberly",
+    "species": "Dog",
+    "breed": "Great Dane",
+    "age_years": 1,
+    "gender": "Female",
+    "color": "Grey",
+    "arrival_date": "2024-10-05T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-02-04T00:00:00",
+      "adopter_id": "A0121"
+    }
+  },
+  {
+    "el_file": "P0122",
+    "name": "Thomas",
+    "species": "Cat",
+    "breed": "Persian",
+    "age_years": 4,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2024-01-06T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-01-27T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0123",
+    "name": "Richard",
+    "species": "Rabbit",
+    "breed": "English Angora",
+    "age_years": 9,
+    "gender": "Male",
+    "color": "Black",
+    "arrival_date": "2024-05-28T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-09-20T00:00:00",
+      "adopter_id": "A0123"
+    }
+  },
+  {
+    "el_file": "P0124",
+    "name": "Erin",
+    "species": "Dog",
+    "breed": "Golden Retriever",
+    "age_years": 3,
+    "gender": "Female",
+    "color": "Black",
+    "arrival_date": "2024-09-22T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-10-11T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0125",
+    "name": "Victoria",
+    "species": "Cat",
+    "breed": "Persian",
+    "age_years": 15,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2024-04-07T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-08-09T00:00:00",
+      "adopter_id": "A0125"
+    }
+  },
+  {
+    "el_file": "P0126",
+    "name": "Jesse",
+    "species": "Hamster",
+    "breed": "Roborovski",
+    "age_years": 3,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2024-10-13T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-11-02T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0127",
+    "name": "Michael",
+    "species": "Dog",
+    "breed": "German Shepherd",
+    "age_years": 4,
+    "gender": "Female",
+    "color": "Mixed",
+    "arrival_date": "2024-02-19T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-05-18T00:00:00",
+      "adopter_id": "A0127"
+    }
+  },
+  {
+    "el_file": "P0128",
+    "name": "Megan",
+    "species": "Bird",
+    "breed": "Macaw",
+    "age_years": 10,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2023-11-19T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2023-12-17T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0129",
+    "name": "Matthew",
+    "species": "Hamster",
+    "breed": "Russian Dwarf",
+    "age_years": 8,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2024-04-26T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-05-05T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0130",
+    "name": "Brooke",
+    "species": "Dog",
+    "breed": "Golden Retriever",
+    "age_years": 5,
+    "gender": "Male",
+    "color": "Grey",
+    "arrival_date": "2023-10-27T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2023-12-17T00:00:00",
+      "adopter_id": "A0130"
+    }
+  },
+  {
+    "el_file": "P0131",
+    "name": "Michael",
+    "species": "Cat",
+    "breed": "Sphynx",
+    "age_years": 1,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2023-08-26T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-02-14T00:00:00",
+      "adopter_id": "A0131"
+    }
+  },
+  {
+    "el_file": "P0132",
+    "name": "Jessica",
+    "species": "Cat",
+    "breed": "Birman",
+    "age_years": 6,
+    "gender": "Female",
+    "color": "Black",
+    "arrival_date": "2025-01-23T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-18T00:00:00",
+      "adopter_id": "A0132"
+    }
+  },
+  {
+    "el_file": "P0133",
+    "name": "Carol",
+    "species": "Dog",
+    "breed": "Siberian Husky",
+    "age_years": 14,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2023-11-26T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2023-12-16T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0134",
+    "name": "Elizabeth",
+    "species": "Dog",
+    "breed": "Golden Retriever",
+    "age_years": 6,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2024-12-15T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-12-24T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0135",
+    "name": "Heidi",
+    "species": "Hamster",
+    "breed": "Syrian",
+    "age_years": 14,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2024-04-21T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-05-03T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0136",
+    "name": "Molly",
+    "species": "Rabbit",
+    "breed": "Holland Lop",
+    "age_years": 14,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2024-08-25T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-02-17T00:00:00",
+      "adopter_id": "A0136"
+    }
+  },
+  {
+    "el_file": "P0137",
+    "name": "Richard",
+    "species": "Cat",
+    "breed": "Scottish Fold",
+    "age_years": 6,
+    "gender": "Female",
+    "color": "Grey",
+    "arrival_date": "2024-11-23T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-04-28T00:00:00",
+      "adopter_id": "A0137"
+    }
+  },
+  {
+    "el_file": "P0138",
+    "name": "Michael",
+    "species": "Dog",
+    "breed": "Boxer",
+    "age_years": 3,
+    "gender": "Female",
+    "color": "Mixed",
+    "arrival_date": "2024-01-14T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-01-19T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0139",
+    "name": "Debbie",
+    "species": "Rabbit",
+    "breed": "Holland Lop",
+    "age_years": 12,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2024-10-01T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-10-12T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0140",
+    "name": "Melissa",
+    "species": "Bird",
+    "breed": "Parakeet",
+    "age_years": 4,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2024-07-03T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-07-24T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0141",
+    "name": "Connie",
+    "species": "Dog",
+    "breed": "Shih Tzu",
+    "age_years": 2,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2024-02-24T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-04-06T00:00:00",
+      "adopter_id": "A0141"
+    }
+  },
+  {
+    "el_file": "P0142",
+    "name": "Austin",
+    "species": "Dog",
+    "breed": "French Bulldog",
+    "age_years": 4,
+    "gender": "Male",
+    "color": "Golden",
+    "arrival_date": "2025-02-20T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-18T00:00:00",
+      "adopter_id": "A0142"
+    }
+  },
+  {
+    "el_file": "P0143",
+    "name": "Amy",
+    "species": "Cat",
+    "breed": "Oriental Shorthair",
+    "age_years": 9,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2023-08-16T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2023-11-17T00:00:00",
+      "adopter_id": "A0143"
+    }
+  },
+  {
+    "el_file": "P0144",
+    "name": "Henry",
+    "species": "Dog",
+    "breed": "French Bulldog",
+    "age_years": 9,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2025-04-19T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-05-16T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0145",
+    "name": "Valerie",
+    "species": "Cat",
+    "breed": "Devon Rex",
+    "age_years": 2,
+    "gender": "Male",
+    "color": "Mixed",
+    "arrival_date": "2024-06-26T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-10-09T00:00:00",
+      "adopter_id": "A0145"
+    }
+  },
+  {
+    "el_file": "P0146",
+    "name": "Daniel",
+    "species": "Rabbit",
+    "breed": "Lionhead",
+    "age_years": 11,
+    "gender": "Female",
+    "color": "Grey",
+    "arrival_date": "2023-12-07T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2023-12-28T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0147",
+    "name": "Angela",
+    "species": "Dog",
+    "breed": "Bulldog",
+    "age_years": 4,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2024-01-12T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-04-03T00:00:00",
+      "adopter_id": "A0147"
+    }
+  },
+  {
+    "el_file": "P0148",
+    "name": "Heather",
+    "species": "Hamster",
+    "breed": "Korean",
+    "age_years": 5,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2023-07-14T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2023-08-10T00:00:00",
+      "adopter_id": "A0148"
+    }
+  },
+  {
+    "el_file": "P0149",
+    "name": "Michelle",
+    "species": "Dog",
+    "breed": "Dachshund",
+    "age_years": 10,
+    "gender": "Female",
+    "color": "Grey",
+    "arrival_date": "2024-12-07T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-12-12T00:00:00",
+      "adopter_id": "A0149"
+    }
+  },
+  {
+    "el_file": "P0150",
+    "name": "Jacqueline",
+    "species": "Cat",
+    "breed": "Bengal",
+    "age_years": 2,
+    "gender": "Female",
+    "color": "Brown",
+    "arrival_date": "2025-05-28T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-06-13T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0151",
+    "name": "Richard",
+    "species": "Bird",
+    "breed": "Cockatoo",
+    "age_years": 9,
+    "gender": "Male",
+    "color": "Black",
+    "arrival_date": "2025-04-11T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-18T00:00:00",
+      "adopter_id": "A0151"
+    }
+  },
+  {
+    "el_file": "P0152",
+    "name": "Rebecca",
+    "species": "Rabbit",
+    "breed": "Dutch",
+    "age_years": 6,
+    "gender": "Male",
+    "color": "Mixed",
+    "arrival_date": "2024-01-16T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-06-30T00:00:00",
+      "adopter_id": "A0152"
+    }
+  },
+  {
+    "el_file": "P0153",
+    "name": "Roger",
+    "species": "Cat",
+    "breed": "Sphynx",
+    "age_years": 14,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2024-05-26T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-06-04T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0154",
+    "name": "Christopher",
+    "species": "Hamster",
+    "breed": "Roborovski",
+    "age_years": 7,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2023-11-09T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2023-11-29T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0155",
+    "name": "Lisa",
+    "species": "Dog",
+    "breed": "Great Dane",
+    "age_years": 10,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2024-12-06T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-12-13T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0156",
+    "name": "Megan",
+    "species": "Rabbit",
+    "breed": "Dutch",
+    "age_years": 2,
+    "gender": "Male",
+    "color": "Grey",
+    "arrival_date": "2024-02-13T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-03-01T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0157",
+    "name": "Jared",
+    "species": "Hamster",
+    "breed": "Roborovski",
+    "age_years": 11,
+    "gender": "Female",
+    "color": "Mixed",
+    "arrival_date": "2024-08-12T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-12-27T00:00:00",
+      "adopter_id": "A0157"
+    }
+  },
+  {
+    "el_file": "P0158",
+    "name": "Cynthia",
+    "species": "Cat",
+    "breed": "Siamese",
+    "age_years": 2,
+    "gender": "Female",
+    "color": "Brown",
+    "arrival_date": "2024-02-13T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-03-07T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0159",
+    "name": "Jennifer",
+    "species": "Hamster",
+    "breed": "Teddy Bear Hamster",
+    "age_years": 9,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2025-01-10T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-01-13T00:00:00",
+      "adopter_id": "A0159"
+    }
+  },
+  {
+    "el_file": "P0160",
+    "name": "Heidi",
+    "species": "Bird",
+    "breed": "Amazon Parrot",
+    "age_years": 6,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2025-04-18T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-18T00:00:00",
+      "adopter_id": "A0160"
+    }
+  },
+  {
+    "el_file": "P0161",
+    "name": "Angela",
+    "species": "Hamster",
+    "breed": "Syrian",
+    "age_years": 3,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2024-11-07T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-01-24T00:00:00",
+      "adopter_id": "A0161"
+    }
+  },
+  {
+    "el_file": "P0162",
+    "name": "Stacy",
+    "species": "Dog",
+    "breed": "Labrador Retriever",
+    "age_years": 15,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2024-07-27T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-09-12T00:00:00",
+      "adopter_id": "A0162"
+    }
+  },
+  {
+    "el_file": "P0163",
+    "name": "Elizabeth",
+    "species": "Cat",
+    "breed": "Norwegian Forest Cat",
+    "age_years": 2,
+    "gender": "Female",
+    "color": "Grey",
+    "arrival_date": "2023-12-17T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2023-12-29T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0164",
+    "name": "Aaron",
+    "species": "Hamster",
+    "breed": "Roborovski",
+    "age_years": 12,
+    "gender": "Female",
+    "color": "Brown",
+    "arrival_date": "2025-04-26T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-18T00:00:00",
+      "adopter_id": "A0164"
+    }
+  },
+  {
+    "el_file": "P0165",
+    "name": "Jason",
+    "species": "Rabbit",
+    "breed": "Silver Marten",
+    "age_years": 14,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2023-06-22T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2023-07-20T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0166",
+    "name": "Amanda",
+    "species": "Rabbit",
+    "breed": "Netherland Dwarf",
+    "age_years": 4,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2025-06-14T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-06-29T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0167",
+    "name": "Alex",
+    "species": "Hamster",
+    "breed": "Korean",
+    "age_years": 3,
+    "gender": "Female",
+    "color": "Mixed",
+    "arrival_date": "2025-02-09T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-03-09T00:00:00",
+      "adopter_id": "A0167"
+    }
+  },
+  {
+    "el_file": "P0168",
+    "name": "Kathy",
+    "species": "Cat",
+    "breed": "Maine Coon",
+    "age_years": 7,
+    "gender": "Female",
+    "color": "Mixed",
+    "arrival_date": "2023-10-17T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2023-10-23T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0169",
+    "name": "Heather",
+    "species": "Rabbit",
+    "breed": "Mini Rex",
+    "age_years": 12,
+    "gender": "Male",
+    "color": "Grey",
+    "arrival_date": "2024-10-15T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-11-01T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0170",
+    "name": "Alisha",
+    "species": "Bird",
+    "breed": "Conure",
+    "age_years": 1,
+    "gender": "Male",
+    "color": "Black",
+    "arrival_date": "2024-01-29T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-02-26T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0171",
+    "name": "Jessica",
+    "species": "Rabbit",
+    "breed": "French Lop",
+    "age_years": 6,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2024-01-29T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-02-13T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0172",
+    "name": "Tracy",
+    "species": "Dog",
+    "breed": "Boxer",
+    "age_years": 4,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2025-06-02T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-18T00:00:00",
+      "adopter_id": "A0172"
+    }
+  },
+  {
+    "el_file": "P0173",
+    "name": "Brittany",
+    "species": "Hamster",
+    "breed": "Syrian",
+    "age_years": 15,
+    "gender": "Female",
+    "color": "Black",
+    "arrival_date": "2023-12-01T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-03-11T00:00:00",
+      "adopter_id": "A0173"
+    }
+  },
+  {
+    "el_file": "P0174",
+    "name": "Julie",
+    "species": "Cat",
+    "breed": "Persian",
+    "age_years": 2,
+    "gender": "Female",
+    "color": "Grey",
+    "arrival_date": "2025-01-20T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-01-22T00:00:00",
+      "adopter_id": "A0174"
+    }
+  },
+  {
+    "el_file": "P0175",
+    "name": "Sarah",
+    "species": "Bird",
+    "breed": "Macaw",
+    "age_years": 5,
+    "gender": "Female",
+    "color": "Grey",
+    "arrival_date": "2025-05-02T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-05-18T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0176",
+    "name": "David",
+    "species": "Cat",
+    "breed": "Siamese",
+    "age_years": 15,
+    "gender": "Male",
+    "color": "Golden",
+    "arrival_date": "2025-05-02T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-06-18T00:00:00",
+      "adopter_id": "A0176"
+    }
+  },
+  {
+    "el_file": "P0177",
+    "name": "Gloria",
+    "species": "Rabbit",
+    "breed": "Flemish Giant",
+    "age_years": 12,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2024-07-11T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-07-31T00:00:00",
+      "adopter_id": "A0177"
+    }
+  },
+  {
+    "el_file": "P0178",
+    "name": "Deborah",
+    "species": "Cat",
+    "breed": "Ragdoll",
+    "age_years": 2,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2024-11-01T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-11-10T00:00:00",
+      "adopter_id": "A0178"
+    }
+  },
+  {
+    "el_file": "P0179",
+    "name": "Monica",
+    "species": "Bird",
+    "breed": "Amazon Parrot",
+    "age_years": 13,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2024-09-24T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-11-26T00:00:00",
+      "adopter_id": "A0179"
+    }
+  },
+  {
+    "el_file": "P0180",
+    "name": "Sarah",
+    "species": "Dog",
+    "breed": "Golden Retriever",
+    "age_years": 5,
+    "gender": "Female",
+    "color": "Spotted",
+    "arrival_date": "2024-07-19T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-01-10T00:00:00",
+      "adopter_id": "A0180"
+    }
+  },
+  {
+    "el_file": "P0181",
+    "name": "Joyce",
+    "species": "Bird",
+    "breed": "Cockatiel",
+    "age_years": 9,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2025-02-12T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-05-12T00:00:00",
+      "adopter_id": "A0181"
+    }
+  },
+  {
+    "el_file": "P0182",
+    "name": "Allison",
+    "species": "Hamster",
+    "breed": "Chinese",
+    "age_years": 13,
+    "gender": "Female",
+    "color": "Black",
+    "arrival_date": "2025-05-05T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-05-21T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0183",
+    "name": "Margaret",
+    "species": "Dog",
+    "breed": "Great Dane",
+    "age_years": 13,
+    "gender": "Female",
+    "color": "Black",
+    "arrival_date": "2023-10-08T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-01-07T00:00:00",
+      "adopter_id": "A0183"
+    }
+  },
+  {
+    "el_file": "P0184",
+    "name": "Christopher",
+    "species": "Cat",
+    "breed": "Devon Rex",
+    "age_years": 3,
+    "gender": "Male",
+    "color": "Grey",
+    "arrival_date": "2024-05-31T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-10-14T00:00:00",
+      "adopter_id": "A0184"
+    }
+  },
+  {
+    "el_file": "P0185",
+    "name": "Keith",
+    "species": "Hamster",
+    "breed": "Russian Dwarf",
+    "age_years": 7,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2024-09-22T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-02-24T00:00:00",
+      "adopter_id": "A0185"
+    }
+  },
+  {
+    "el_file": "P0186",
+    "name": "Kelly",
+    "species": "Rabbit",
+    "breed": "Mini Rex",
+    "age_years": 3,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2024-11-23T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-12-09T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0187",
+    "name": "Cynthia",
+    "species": "Dog",
+    "breed": "Great Dane",
+    "age_years": 4,
+    "gender": "Female",
+    "color": "Mixed",
+    "arrival_date": "2023-11-23T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2023-12-11T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0188",
+    "name": "Michael",
+    "species": "Cat",
+    "breed": "Ragdoll",
+    "age_years": 14,
+    "gender": "Female",
+    "color": "Brown",
+    "arrival_date": "2024-07-27T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-08-07T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0189",
+    "name": "Sandra",
+    "species": "Bird",
+    "breed": "Parakeet",
+    "age_years": 2,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2024-02-20T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-06-17T00:00:00",
+      "adopter_id": "A0189"
+    }
+  },
+  {
+    "el_file": "P0190",
+    "name": "Ashley",
+    "species": "Bird",
+    "breed": "Lovebird",
+    "age_years": 13,
+    "gender": "Female",
+    "color": "Brown",
+    "arrival_date": "2024-10-14T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-10-20T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0191",
+    "name": "Sharon",
+    "species": "Rabbit",
+    "breed": "English Angora",
+    "age_years": 6,
+    "gender": "Female",
+    "color": "Grey",
+    "arrival_date": "2024-04-08T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-09-15T00:00:00",
+      "adopter_id": "A0191"
+    }
+  },
+  {
+    "el_file": "P0192",
+    "name": "Sandra",
+    "species": "Rabbit",
+    "breed": "Lionhead",
+    "age_years": 7,
+    "gender": "Female",
+    "color": "White",
+    "arrival_date": "2025-01-21T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-03-12T00:00:00",
+      "adopter_id": "A0192"
+    }
+  },
+  {
+    "el_file": "P0193",
+    "name": "Cynthia",
+    "species": "Hamster",
+    "breed": "European Hamster",
+    "age_years": 2,
+    "gender": "Male",
+    "color": "Black",
+    "arrival_date": "2024-09-05T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-09-16T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0194",
+    "name": "David",
+    "species": "Bird",
+    "breed": "Cockatiel",
+    "age_years": 4,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2024-10-03T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2025-02-25T00:00:00",
+      "adopter_id": "A0194"
+    }
+  },
+  {
+    "el_file": "P0195",
+    "name": "Natalie",
+    "species": "Rabbit",
+    "breed": "Lionhead",
+    "age_years": 14,
+    "gender": "Male",
+    "color": "Brown",
+    "arrival_date": "2024-11-01T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-11-17T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0196",
+    "name": "Melissa",
+    "species": "Hamster",
+    "breed": "Chinese",
+    "age_years": 8,
+    "gender": "Male",
+    "color": "White",
+    "arrival_date": "2024-11-10T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-11-28T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0197",
+    "name": "Ricky",
+    "species": "Dog",
+    "breed": "Labrador Retriever",
+    "age_years": 4,
+    "gender": "Female",
+    "color": "Golden",
+    "arrival_date": "2025-04-09T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2025-05-06T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0198",
+    "name": "Carly",
+    "species": "Rabbit",
+    "breed": "Flemish Giant",
+    "age_years": 5,
+    "gender": "Male",
+    "color": "Spotted",
+    "arrival_date": "2024-02-02T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-02-13T00:00:00",
+      "adopter_id": null
+    }
+  },
+  {
+    "el_file": "P0199",
+    "name": "Don",
+    "species": "Dog",
+    "breed": "Great Dane",
+    "age_years": 1,
+    "gender": "Male",
+    "color": "Mixed",
+    "arrival_date": "2024-11-11T00:00:00",
+    "adoption": {
+      "status": true,
+      "date": "2024-12-25T00:00:00",
+      "adopter_id": "A0199"
+    }
+  },
+  {
+    "el_file": "P0200",
+    "name": "Caleb",
+    "species": "Bird",
+    "breed": "Canary",
+    "age_years": 5,
+    "gender": "Male",
+    "color": "Golden",
+    "arrival_date": "2024-10-16T00:00:00",
+    "adoption": {
+      "status": false,
+      "date": "2024-11-07T00:00:00",
+      "adopter_id": null
+    }
+  }
+]

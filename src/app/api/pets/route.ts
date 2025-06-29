@@ -22,7 +22,6 @@ export async function GET(request: NextRequest) {
     const species = searchParams.get('species')?.trim();
     const adopted = searchParams.get('adopted')?.trim();
 
-    // Build dynamic query
     const query: Record<string, string> = {};
     if (name) query.pet_name = name;
     if (breed) query.breed = breed;

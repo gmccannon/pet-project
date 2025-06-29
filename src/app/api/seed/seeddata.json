@@ -10,11 +10,13 @@
     "arrival_date": "10/10/2024",
     "adopted": "TRUE",
     "adoption_date": "3/11/2025",
-    "adopter_id": "A0001",
-    "adopter_name": "Megan Rogers",
-    "adopter_age": 56,
-    "adopter_city": "Mcgeestad",
-    "adopter_previous_pets": 1
+    "adopter": {
+      "adopter_id": "A0001",
+      "adopter_name": "Megan Rogers",
+      "adopter_age": 56,
+      "adopter_city": "Mcgeestad",
+      "adopter_previous_pets": 1
+    }
   },
   {
     "el file": "P0002",
