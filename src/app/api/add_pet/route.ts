@@ -13,13 +13,27 @@ const PetSchema = z.object({
   adoption: z.object({
     status: z.boolean(),
     date: z.coerce.date().nullable().optional(),
-    adopter_id: z.string().optional(),
+    adopter_email: z.string().optional(),
   }),
+});
+
+const petSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  species: { type: String, required: true },
+  breed: { type: String },
+  age_years: { type: Number },
+  gender: { type: String },
+  color: { type: String },
+  arrival_date: { type: Date },
+  adoption: {
+    status: { type: Boolean, required: true },
+    date: { type: Date },
+    adopter_email: { type: String }
+  }
 });
 
 export type Pet = z.infer<typeof PetSchema>;
 
-const petSchema = new mongoose.Schema({ ...PetSchema });
 const PetModel = mongoose.models.Pet || mongoose.model('Pet', petSchema);
 
 async function connectDB() {

@@ -3,16 +3,23 @@ import mongoose from 'mongoose';
 import { z } from 'zod';
 
 export const AdopterSchema = z.object({
-  adopter_id: z.string().email(),
-  name: z.string().optional(),
+  adopter_email: z.string().email(),
+  name: z.string(),
   age: z.number().optional(),
   city: z.string().optional(),
   previous_pets: z.number().optional()
 });
 
+const adopterSchema = new mongoose.Schema({
+  adopter_email: { type: String, required: true, unique: true },
+  name: { type: String, required: true },
+  age: { type: Number },
+  city: { type: String },
+  previous_pets: { type: Number },
+});
+
 export type Adopter = z.infer<typeof AdopterSchema>;
 
-const adopterSchema = new mongoose.Schema({ ...AdopterSchema });
 const Adopter = mongoose.models.Adopter || mongoose.model('Adopter', adopterSchema);
 
 async function connectDB() {
@@ -30,15 +37,15 @@ export async function POST(request: NextRequest) {
 
     const result = AdopterSchema.safeParse(json);
     if (!result.success) {
-      return NextResponse.json({ error: 'Invalid input caught by zod', details: result.error.flatten() }, { status: 400 });
+      return NextResponse.json({ error: 'Invalid input', details: result.error.flatten() }, { status: 400 });
     }
 
-    const existing = await Adopter.findOne({ adopter_id: json.adopter_id });
+    const existing = await Adopter.findOne({ adopter_email: json.adopter_email });
     if (existing) {
-      return NextResponse.json({ error: 'Adopter ID already exists' }, { status: 409 });
+      return NextResponse.json({ error: 'Adopter email already exists' }, { status: 409 });
     }
 
-    const newAdopter = new Adopter(result);
+    const newAdopter = new Adopter(result.data);
     await newAdopter.save();
 
     return NextResponse.json({ message: 'Adopter added successfully', adopter: newAdopter }, { status: 201 });
