@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import mongoose from 'mongoose';
 import { z } from 'zod';
-import petSchema from '@/lib/schemas/pet';
+import { petSchema } from '@/lib/schemas/pet';
 
 const UpdatePetSchema = z.object({
   _id: z.string().length(24, 'must be the MongoDB ObjectId')
