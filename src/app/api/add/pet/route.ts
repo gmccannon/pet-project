@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import mongoose from 'mongoose';
 import { z } from 'zod';
+import petSchema from '@/lib/schemas/pet';
 
 const PetSchema = z.object({
   name: z.string(),
@@ -15,21 +16,6 @@ const PetSchema = z.object({
     date: z.coerce.date().nullable().optional(),
     adopter_email: z.string().optional(),
   }),
-});
-
-const petSchema = new mongoose.Schema({
-  name: { type: String, required: true },
-  species: { type: String, required: true },
-  breed: { type: String },
-  age_years: { type: Number },
-  gender: { type: String },
-  color: { type: String },
-  arrival_date: { type: Date },
-  adoption: {
-    status: { type: Boolean, required: true },
-    date: { type: Date },
-    adopter_email: { type: String }
-  }
 });
 
 export type Pet = z.infer<typeof PetSchema>;

@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 import mongoose from 'mongoose'
-import petsData from '@/app/api/seed/pets.json'
-import adoptersData from '@/app/api/seed/adopters.json'
+import petsData from '@/app/api/util/seed/pets.json'
+import adoptersData from '@/app/api/util/seed/adopters.json'
 
 // Pet schema
 const petSchema = new mongoose.Schema({}, { strict: false })
