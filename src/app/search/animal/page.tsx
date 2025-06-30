@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import { Pet } from '@/app/api/add/pet/route'
+import { Pet } from '@/lib/schemas/pet';
 import Dropdown from '@/lib/components/Dropdown';
 
 type Species = 'Dog' | 'Cat' | 'Bird' | 'Hamster' | 'Rabbit' | '';

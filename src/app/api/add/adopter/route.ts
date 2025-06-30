@@ -1,17 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import mongoose from 'mongoose';
-import { z } from 'zod';
-import adopterSchema from '@/lib/schemas/adopter';
-
-export const AdopterSchema = z.object({
-  adopter_email: z.string().email(),
-  name: z.string(),
-  age: z.number().optional(),
-  city: z.string().optional(),
-  previous_pets: z.number().optional()
-});
-
-export type Adopter = z.infer<typeof AdopterSchema>;
+import { adopterSchema, AdopterSchema } from '@/lib/schemas/adopter';
 
 const Adopter = mongoose.models.Adopter || mongoose.model('Adopter', adopterSchema);
 

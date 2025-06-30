@@ -1,24 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import mongoose from 'mongoose';
 import { z } from 'zod';
-import petSchema from '@/lib/schemas/pet';
-
-const PetSchema = z.object({
-  name: z.string(),
-  species: z.string(),
-  breed: z.string().optional(),
-  age_years: z.number().optional(),
-  gender: z.string().optional(),
-  color: z.string().optional(),
-  arrival_date: z.coerce.date().optional(),
-  adoption: z.object({
-    status: z.boolean(),
-    date: z.coerce.date().nullable().optional(),
-    adopter_email: z.string().optional(),
-  }),
-});
-
-export type Pet = z.infer<typeof PetSchema>;
+import { PetSchema, petSchema } from '@/lib/schemas/pet';
 
 const PetModel = mongoose.models.Pet || mongoose.model('Pet', petSchema);
 

@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { z } from "zod";
 
 const petSchema = new mongoose.Schema({
   name: { type: String, required: true },
@@ -15,4 +16,21 @@ const petSchema = new mongoose.Schema({
   }
 });
 
-export default petSchema;
+export const PetSchema = z.object({
+  name: z.string(),
+  species: z.string(),
+  breed: z.string().optional(),
+  age_years: z.number().optional(),
+  gender: z.string().optional(),
+  color: z.string().optional(),
+  arrival_date: z.coerce.date().optional(),
+  adoption: z.object({
+    status: z.boolean(),
+    date: z.coerce.date().nullable().optional(),
+    adopter_email: z.string().optional(),
+  }),
+});
+
+export type Pet = z.infer<typeof PetSchema>;
+
+export { petSchema };
