@@ -1,10 +1,13 @@
 'use client'
 import React from 'react'
 import { Pet } from '@/app/api/add/pet/route'
+import Dropdown from '@/lib/components/Dropdown';
 
-const getPetData = async (search: string): Promise<Pet[]> => {
+type Species = 'Dog' | 'Cat' | 'Bird' | 'Hamster' | 'Rabbit' | '';
+
+const getPetData = async (name: string, species: string): Promise<Pet[]> => {
   try {
-    const res = await fetch(`/api/get/pet`, {
+    const res = await fetch(`/api/get/pet?name=${name}&species=${species}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -19,16 +22,17 @@ const getPetData = async (search: string): Promise<Pet[]> => {
 }
 
 const Page = () => {
-  const [search, setSearch] = React.useState("");
   const [pets, setPets] = React.useState<Pet[] | null>(null);
+  const [name, setName] = React.useState("");
+  const [species, setSpecies] = React.useState<Species>("");
 
   React.useEffect(() => {
-    if (search != undefined) {
-      getPetData(search).then((data) => setPets(data));
+    if (name != undefined) {
+      getPetData(name, species).then((data) => setPets(data));
     } else {
       setPets(null);
     }
-  }, [search]);
+  }, [name, species]);
 
   return (
     <main className="max-w-4xl mx-auto p-6">
@@ -36,12 +40,18 @@ const Page = () => {
 
       <input
         type="text"
-        value={search}
-        placeholder="Type to search..."
-        onChange={(e) => setSearch(e.target.value)}
+        value={name}
+        placeholder="Type in name..."
+        onChange={(e) => setName(e.target.value)}
         className="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm mb-6 focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
 
+      <Dropdown 
+        options={['Dog', 'Cat', 'Bird', 'Hamster', 'Rabbit']}
+        value ={species || ''}
+        onChange={(value) => setSpecies(value as Species)}
+        label="Select Species"
+      />
       <div>
         {pets && pets.length > 0 ? (
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -51,6 +61,8 @@ const Page = () => {
                 <p className="text-gray-700">Species: {pet.species}</p>
                 {pet.breed && <p className="text-gray-700">Breed: {pet.breed}</p>}
                 {pet.age_years !== undefined && <p className="text-gray-700">Age: {pet.age_years} years</p>}
+                {pet.color && <p className="text-gray-700">Color: {pet.color}</p>}
+                {pet.gender && <p className="text-gray-700">Gender: {pet.gender}</p>}
               </li>
             ))}
           </ul>
