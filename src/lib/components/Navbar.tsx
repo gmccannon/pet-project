@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="bg-white p-4 text-black">
       <ul className="flex justify-around">
         <li>
-          <Link href="/">Search Animals</Link>
+          <Link href="/search/animal">Search Animals</Link>
         </li>
         <li>
           <Link href="/add/animal">Add Animal</Link>
