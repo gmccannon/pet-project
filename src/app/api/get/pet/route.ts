@@ -1,8 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import mongoose from 'mongoose';
 
-type QueryValue = string | number | { $regex: string; $options: string; }
-
 const petSchema = new mongoose.Schema({}, { strict: false });
 const Pet = mongoose.models.Pet || mongoose.model('Pet', petSchema);
 
@@ -19,19 +17,24 @@ export async function GET(request: NextRequest) {
     await connectDB();
 
     const { searchParams } = new URL(request.url);
+    const query: any = {};
+
     const name = searchParams.get('name')?.trim();
     const breed = searchParams.get('breed')?.trim();
     const species = searchParams.get('species')?.trim();
-    const age = searchParams.get('age')?.trim();
+    const min = parseInt(searchParams.get('min') || '');
+    const max = parseInt(searchParams.get('max') || '');
 
-    const query: Record<string, QueryValue> = {};
-    if (name) { query.name = { $regex: name, $options: 'i' }; } // fuzzy case-insensitive
+    if (name) query.name = { $regex: name, $options: 'i' };
     if (breed) query.breed = breed;
     if (species) query.species = species;
-    if (age) query.age_years = parseInt(age);
+    if (min !== undefined || max !== undefined) {
+      query.age_years = {};
+      if (min !== undefined) query.age_years.$gte = min;
+      if (max !== undefined) query.age_years.$lte = max;
+    }
 
     const pets = await Pet.find(query);
-
     return NextResponse.json(pets);
   } catch (error) {
     console.error('Database fetch error:', error);
