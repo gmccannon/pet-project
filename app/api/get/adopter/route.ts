@@ -26,7 +26,7 @@ export async function GET(request: NextRequest) {
 
     const query: Record<string, QueryValue> = {};
     if (name) { query.name = { $regex: name, $options: 'i' }; } // fuzzy case-insensitive
-    if (city) query.city = city;
+    if (city) query.city = { $regex: city, $options: 'i' }; // fuzzy case-insensitive
     if (age) query.age = parseInt(age);
     if (previousPets) query.previous_pets = parseInt(previousPets);
 

@@ -9,7 +9,15 @@ import Slider from '@mui/material/Slider';
 
 type Species = "Dog" | "Cat" | "Bird" | "Hamster" | "Rabbit" | ""
 
-const getPetData = async (name: string, species: string, min: number, max: number): Promise<Pet[]> => {
+type AdoptionStatus = "All" | "Adopted" | "Available"
+
+const getPetData = async (
+  name: string,
+  species: string,
+  min: number,
+  max: number,
+  status: AdoptionStatus
+): Promise<Pet[]> => {
   try {
     const { data } = await axios.get<Pet[]>("/api/get/pet", {
       params: {
@@ -17,6 +25,7 @@ const getPetData = async (name: string, species: string, min: number, max: numbe
         species: species || undefined,
         min: min || undefined,
         max: max || undefined,
+        status: status !== "All" ? status : undefined,
       },
     })
     return data
@@ -33,10 +42,11 @@ export default function SearchPets() {
   const [species, setSpecies] = useState<Species>("")
   const [ageRange, setAgeRange] = useState<[number, number]>([1, 20])
   const [showFilters, setShowFilters] = useState(false)
+  const [adoptionStatus, setAdoptionStatus] = useState<AdoptionStatus>("All")
 
   const searchPets = async () => {
     setLoading(true)
-    const data = await getPetData(name, species, ageRange[0], ageRange[1])
+    const data = await getPetData(name, species, ageRange[0], ageRange[1], adoptionStatus)
     setPets(data)
     setLoading(false)
   }
@@ -116,12 +126,24 @@ export default function SearchPets() {
 
             {showFilters && (
               <div className="pt-4 border-t border-gray-200">
+                <div className="md:w-48 pb-5">
+                  <label className="block text-sm font-medium text-gray-700 mb-2">Adoption Status</label>
+                  <select
+                    value={adoptionStatus}
+                    onChange={(e) => setAdoptionStatus(e.target.value as AdoptionStatus)}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  >
+                    <option value="All">All</option>
+                    <option value="Available">Available</option>
+                    <option value="Adopted">Adopted</option>
+                  </select>
+                </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
                       Age Range: {ageRange[0]} - {ageRange[1]} years
                     </label>
-                    <div className="flex items-center space-x-4">
+                    <div className="flex items-center space-x-4 pl-3">
                       <Slider
                         value={ageRange}
                         onChange={(e, v) => { setAgeRange(v as [number, number]) }}

@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from "react"
 import Navbar from "@/lib/components/Navbar"
-import { BarChart3, PieChart, TrendingUp, Users, Cat, Calendar, MapPin } from "lucide-react"
+import { BarChart3, PieChart, TrendingUp, Users, Cat, Calendar, MapPin, PaintBucket } from "lucide-react"
 import axios from "axios"
 import type { Pet } from "@/lib/schemas/pet"
 import type { Adopter } from "@/lib/schemas/adopter"
@@ -17,7 +17,11 @@ interface AnalyticsData {
   monthlyAdoptions: { [key: string]: number }
   topCities: { [key: string]: number }
   breedPopularity: { [key: string]: number }
+  genderBreakdown: { [key: string]: number }    
+  adoptedGenderBreakdown: { [key: string]: number }  
+  colorAdoptionTrends: { [key: string]: number }  
 }
+
 
 export default function Analytics() {
   const [data, setData] = useState<AnalyticsData | null>(null)
@@ -50,6 +54,9 @@ export default function Analytics() {
         monthlyAdoptions: {},
         topCities: {},
         breedPopularity: {},
+        genderBreakdown: {},
+        adoptedGenderBreakdown: {},
+        colorAdoptionTrends: {}
       }
 
       // Species breakdown
@@ -94,6 +101,31 @@ export default function Analytics() {
           analytics.breedPopularity[pet.breed] = (analytics.breedPopularity[pet.breed] || 0) + 1
         }
       })
+
+      // Gender breakdown
+      pets
+        .forEach((pet) => {
+        if (pet.gender) {
+          analytics.genderBreakdown[pet.gender] = (analytics.genderBreakdown[pet.gender] || 0) + 1
+        }
+      })
+
+      // Gender breakdown by adopted
+      pets
+        .filter((pet) => pet.adoption.status && typeof pet.color === "string" && pet.color)
+        .forEach((pet) => {
+        if (pet.gender) {
+          analytics.adoptedGenderBreakdown[pet.gender] = (analytics.adoptedGenderBreakdown[pet.gender] || 0) + 1
+        }
+      })
+
+      // Color adoption trends
+      pets
+        .filter((pet) => pet.adoption.status && typeof pet.color === "string" && pet.color)
+        .forEach((pet) => {
+          analytics.colorAdoptionTrends[pet.color as string] = (analytics.colorAdoptionTrends[pet.color as string] || 0) + 1
+        })
+
 
       setData(analytics)
     } catch (err) {
@@ -215,22 +247,25 @@ export default function Analytics() {
               Age Distribution
             </h2>
             <div className="space-y-3">
-              {Object.entries(data.ageDistribution)
-                .sort(([, a], [, b]) => b - a)
-                .map(([ageGroup, count]) => (
-                  <div key={ageGroup} className="flex items-center justify-between">
-                    <span className="text-gray-700">{ageGroup}</span>
-                    <div className="flex items-center">
-                      <div className="w-32 bg-gray-200 rounded-full h-2 mr-3">
-                        <div
-                          className="bg-blue-600 h-2 rounded-full"
-                          style={{ width: `${(count / data.totalPets) * 100}%` }}
-                        ></div>
+               {[ "Senior (10+)", "Mature (5-9)",  "Adult (2-4)", "Young (0-1)"]
+                .filter((label) => data.ageDistribution[label] !== undefined)
+                .map((ageGroup) => {
+                  const count = data.ageDistribution[ageGroup] as number
+                  return (
+                    <div key={ageGroup} className="flex items-center justify-between">
+                      <span className="text-gray-700">{ageGroup}</span>
+                      <div className="flex items-center">
+                        <div className="w-32 bg-gray-200 rounded-full h-2 mr-3">
+                          <div
+                            className="bg-blue-600 h-2 rounded-full"
+                            style={{ width: `${(count / data.totalPets) * 100}%` }}
+                          ></div>
+                        </div>
+                        <span className="text-sm font-medium text-gray-900 w-8">{count}</span>
                       </div>
-                      <span className="text-sm font-medium text-gray-900 w-8">{count}</span>
                     </div>
-                  </div>
-                ))}
+                  )
+                })}
             </div>
           </div>
         </div>
@@ -246,7 +281,7 @@ export default function Analytics() {
             <div className="space-y-3">
               {Object.entries(data.monthlyAdoptions)
                 .sort(([a], [b]) => a.localeCompare(b))
-                .slice(-12) // Show last 6 months
+                .slice(-12)
                 .map(([month, count]) => (
                   <div key={month} className="flex items-center justify-between">
                     <span className="text-gray-700">{month}</span>
@@ -282,6 +317,83 @@ export default function Analytics() {
                         <div
                           className="bg-orange-600 h-2 rounded-full"
                           style={{ width: `${(count / Math.max(...Object.values(data.topCities))) * 100}%` }}
+                        ></div>
+                      </div>
+                      <span className="text-sm font-medium text-gray-900 w-8">{count}</span>
+                    </div>
+                  </div>
+                ))}
+            </div>
+          </div>
+
+        {/* Gender Distribution */}
+        <div className="bg-white rounded-lg shadow-md p-6">
+          <h2 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+            <Users className="h-5 w-5 mr-2" />
+            Gender Distribution
+          </h2>
+          <h2 className="text-s font-semibold text-gray-900 mb-4 flex items-center">
+            All
+          </h2>
+          <div className="space-y-3">
+            {Object.entries(data.genderBreakdown)
+              .sort(([, a], [, b]) => b - a)
+              .map(([gender, count]) => (
+                <div key={gender} className="flex items-center justify-between">
+                  <span className="text-gray-700">{gender}</span>
+                  <div className="flex items-center">
+                    <div className="w-32 bg-gray-200 rounded-full h-2 mr-3">
+                      <div
+                        className="bg-pink-600 h-2 rounded-full"
+                        style={{ width: `${(count / data.totalPets) * 100}%` }}
+                      ></div>
+                    </div>
+                    <span className="text-sm font-medium text-gray-900 w-8">{count}</span>
+                  </div>
+                </div>
+              ))}
+          </div>
+          <h2 className="text-s font-semibold text-gray-900 mb-4 flex items-center pt-6">
+            Adopted
+          </h2>
+          <div className="space-y-3">
+            {Object.entries(data.adoptedGenderBreakdown)
+              .sort(([, a], [, b]) => b - a)
+              .map(([gender, count]) => (
+                <div key={gender} className="flex items-center justify-between">
+                  <span className="text-gray-700">{gender}</span>
+                  <div className="flex items-center">
+                    <div className="w-32 bg-gray-200 rounded-full h-2 mr-3">
+                      <div
+                        className="bg-pink-600 h-2 rounded-full"
+                        style={{ width: `${(count / data.totalPets) * 100}%` }}
+                      ></div>
+                    </div>
+                    <span className="text-sm font-medium text-gray-900 w-8">{count}</span>
+                  </div>
+                </div>
+              ))}
+          </div>
+        </div>
+
+          {/* Color Adoption Trends */}
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <h2 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
+              <PaintBucket className="h-5 w-5 mr-2" />
+              Most Adopted Colors
+            </h2>
+            <div className="space-y-3">
+              {Object.entries(data.colorAdoptionTrends)
+                .sort(([, a], [, b]) => b - a)
+                .slice(0, 10)
+                .map(([color, count]) => (
+                  <div key={color} className="flex items-center justify-between">
+                    <span className="text-gray-700 capitalize">{color}</span>
+                    <div className="flex items-center">
+                      <div className="w-32 bg-gray-200 rounded-full h-2 mr-3">
+                        <div
+                          className="bg-yellow-500 h-2 rounded-full"
+                          style={{ width: `${(count / Math.max(...Object.values(data.colorAdoptionTrends))) * 100}%` }}
                         ></div>
                       </div>
                       <span className="text-sm font-medium text-gray-900 w-8">{count}</span>

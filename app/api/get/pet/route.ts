@@ -24,26 +24,31 @@ export async function GET(request: NextRequest) {
     const species = searchParams.get('species')?.trim();
     const minParam = searchParams.get('min');
     const maxParam = searchParams.get('max');
+    const status = searchParams.get('status')?.trim(); // "Adopted", "Available", or null
+
     const min = minParam ? parseInt(minParam) : undefined;
     const max = maxParam ? parseInt(maxParam) : undefined;
 
     if (name) query.name = { $regex: name, $options: 'i' };
     if (breed) query.breed = breed;
     if (species) query.species = species;
+
     if (min !== undefined || max !== undefined) {
       query.age_years = {};
       if (min !== undefined && !Number.isNaN(min)) query.age_years.$gte = min;
       if (max !== undefined && !Number.isNaN(max)) query.age_years.$lte = max;
+      if (Object.keys(query.age_years).length === 0) delete query.age_years;
+    }
 
-      // If both are NaN, remove age_years entirely
-      if (Object.keys(query.age_years).length === 0) {
-        delete query.age_years;
-      }
+    // Handle adoption status
+    if (status === 'Adopted') {
+      query['adoption.status'] = true;
+    } else if (status === 'Available') {
+      query['adoption.status'] = false;
     }
 
     const pets = await Pet.find(query);
 
-    console.log(pets);
     return NextResponse.json(pets);
   } catch (error) {
     console.error('Database fetch error:', error);
