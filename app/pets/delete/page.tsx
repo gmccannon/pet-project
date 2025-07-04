@@ -178,6 +178,11 @@ export default function DeletePet() {
                     <p>
                       <strong>Status:</strong> {selectedPet.adoption.status ? "Adopted" : "Available"}
                     </p>
+                    {selectedPet.adoption.adopter_email && (
+                      <p>
+                        <strong>Adopter:</strong> {selectedPet.adoption.adopter_email}
+                      </p>
+                    )}
                   </div>
                 </div>
 

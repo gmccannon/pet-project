@@ -4,7 +4,7 @@ import { Cat, Users, BarChart3, Search, Plus, Edit, Trash2 } from "lucide-react"
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50">
+    <div className="min-h-screen">
       <Navbar />
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -27,7 +27,7 @@ export default function Home() {
             <p className="text-gray-600">Find your perfect companion</p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6 text-center">
-            <Users className="h-8 w-8 text-blue-600 mx-auto mb-2" />
+            <Users className="h-8 w-8 text-red-600 mx-auto mb-2" />
             <h3 className="text-lg font-semibold text-gray-900">Adopters</h3>
             <p className="text-gray-600">Manage adoption applications</p>
           </div>
