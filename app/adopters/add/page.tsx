@@ -39,8 +39,8 @@ export default function AddAdopter() {
         city: "",
         previous_pets: "",
       })
-    } catch (err: any) {
-      setError(err.response?.data?.error || "Failed to add adopter")
+    } catch {
+      setError("Failed to add adopter")
     } finally {
       setLoading(false)
     }

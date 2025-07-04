@@ -23,7 +23,7 @@ export default function DeleteAdopter() {
         params: { name: searchTerm },
       })
       setAdopters(data)
-    } catch (err) {
+    } catch {
       setError("Failed to search adopters")
     } finally {
       setLoading(false)
@@ -51,8 +51,8 @@ export default function DeleteAdopter() {
       setShowConfirm(false)
       setAdopters(adopters.filter((adopter) => adopter !== selectedAdopter))
       setTimeout(() => setSuccess(false), 3000)
-    } catch (err: any) {
-      setError(err.response?.data?.error || "Failed to delete adopter")
+    } catch {
+      setError("Failed to delete adopter")
     } finally {
       setLoading(false)
     }
