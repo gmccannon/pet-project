@@ -1,5 +1,8 @@
+'use client'
+
 import Link from "next/link"
-import { Home, Search, Plus, Edit, Trash2, BarChart3, Users, Cat } from "lucide-react"
+import { Home, Search, Plus, Edit, Trash2, BarChart3, Users, Cat, LogOut } from "lucide-react"
+import { signOut } from "next-auth/react"
 
 export default function Navbar() {
   return (
@@ -107,6 +110,13 @@ export default function Navbar() {
               <BarChart3 className="h-4 w-4" />
               <span>Analytics</span>
             </Link>
+            <button
+              onClick={() => signOut({ callbackUrl: "/" })}
+              className="flex items-center space-x-1 text-gray-700 hover:text-blue-500 transition-colors"
+            >
+              <LogOut className="h-4 w-4" />
+              <p className="pl-.5">Log Out</p>
+            </button>
           </div>
         </div>
       </div>

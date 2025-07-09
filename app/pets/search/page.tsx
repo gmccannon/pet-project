@@ -3,7 +3,7 @@ import type React from "react"
 import { useState, useEffect } from "react"
 import Navbar from "@/lib/components/Navbar"
 import type { Pet } from "@/lib/schemas/pet"
-import { Search, Filter, Cat, Calendar, MapPin } from "lucide-react"
+import { Search, Filter, Cat, Calendar, MapPin, PaintBucket } from "lucide-react"
 import axios from "axios"
 import Slider from '@mui/material/Slider';
 
@@ -206,7 +206,7 @@ export default function SearchPets() {
                     )}
                     {pet.color && (
                       <div className="flex items-center">
-                        <div className="h-4 w-4 mr-2 rounded-full bg-gray-300"></div>
+                        <PaintBucket className="h-4 w-4 mr-2 text-gray-400"/>
                         <span>Color: {pet.color}</span>
                       </div>
                     )}
@@ -219,7 +219,7 @@ export default function SearchPets() {
                     {pet.arrival_date && (
                       <div className="flex items-center">
                         <MapPin className="h-4 w-4 mr-2 text-gray-400" />
-                        <span>Arrived: {new Date(pet.arrival_date).toLocaleDateString()}</span>
+                        <span>Arrived: {new Date(pet.arrival_date).toISOString().split("T")[0]}</span>
                       </div>
                     )}
                   </div>
@@ -227,7 +227,7 @@ export default function SearchPets() {
                   {pet.adoption.status && pet.adoption.date && (
                     <div className="mt-4 p-3 bg-green-50 rounded-lg">
                       <p className="text-sm text-green-800">
-                        <strong>Adopted:</strong> {new Date(pet.adoption.date).toLocaleDateString()}
+                        <strong>Adopted:</strong> {new Date(pet.adoption.date).toISOString().split("T")[0]}
                       </p>
                       {pet.adoption.adopter_email && (
                         <p className="text-sm text-green-700">Adopter: {pet.adoption.adopter_email}</p>

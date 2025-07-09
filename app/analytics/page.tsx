@@ -134,6 +134,50 @@ export default function Analytics() {
     }
   }
 
+  const exportCSV = () => {
+    if (!data) return;
+
+    const flatten = (obj: Record<string, number>, label: string) => {
+      return Object.entries(obj).map(([key, value]) => ({
+        Category: label,
+        Key: key,
+        Value: value,
+      }));
+    };
+
+    const rows = [
+      { Category: "Metric", Key: "Total Pets", Value: data.totalPets },
+      { Category: "Metric", Key: "Total Adopters", Value: data.totalAdopters },
+      { Category: "Metric", Key: "Adopted Pets", Value: data.adoptedPets },
+      { Category: "Metric", Key: "Available Pets", Value: data.availablePets },
+      { Category: "Metric", Key: "Adoption Rate (%)", Value: data.adoptionRate.toFixed(2) },
+      ...flatten(data.speciesBreakdown, "Species Breakdown"),
+      ...flatten(data.ageDistribution, "Age Distribution"),
+      ...flatten(data.monthlyAdoptions, "Monthly Adoptions"),
+      ...flatten(data.topCities, "Top Cities"),
+      ...flatten(data.breedPopularity, "Breed Popularity"),
+      ...flatten(data.genderBreakdown, "Gender Breakdown"),
+      ...flatten(data.adoptedGenderBreakdown, "Adopted Gender Breakdown"),
+      ...flatten(data.colorAdoptionTrends, "Color Adoption Trends"),
+    ];
+
+    const csv = [
+      ["Category", "Key", "Value"],
+      ...rows.map((row) => [row.Category, row.Key, row.Value]),
+    ]
+      .map((e) => e.join(","))
+      .join("\n");
+
+    const blob = new Blob([csv], { type: "text/csv" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "analytics.csv";
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-50">
@@ -161,6 +205,15 @@ export default function Analytics() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
+      <div className="flex justify-end mt-6">
+        <button
+          onClick={exportCSV}
+          className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg shadow"
+        >
+          Export Stats as CSV
+        </button>
+      </div>
+
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="mb-8">
