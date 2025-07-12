@@ -205,7 +205,7 @@ export default function Analytics() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
-      <div className="flex justify-end mt-6">
+      <div className="flex justify-end mt-6 pr-60">
         <button
           onClick={exportCSV}
           className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg shadow"

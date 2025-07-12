@@ -1,6 +1,8 @@
+'use client'
+
 import Navbar from "@/lib/components/Navbar"
 import Link from "next/link"
-import { Cat, Users, BarChart3, Search, Plus, Edit, Trash2 } from "lucide-react"
+import { Cat, Users, BarChart3, Search, Plus, Edit, Trash2, Sparkle, Heart } from "lucide-react"
 
 export default function Home() {
   return (
@@ -15,7 +17,7 @@ export default function Home() {
           </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Welcome to Stray Ta Base</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            A comprehensive pet adoption management system to help connect loving pets with caring families.
+            A pet adoption management system to help connect pets with people.
           </p>
         </div>
 
@@ -39,7 +41,7 @@ export default function Home() {
         </div>
 
         {/* Main Actions */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
           {/* Pet Management */}
           <div className="bg-white rounded-lg shadow-lg p-8">
             <div className="flex items-center mb-6">
@@ -121,13 +123,27 @@ export default function Home() {
         <div className="mt-8">
           <Link
             href="/analytics"
-            className="block bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg shadow-lg p-8 hover:from-purple-700 hover:to-blue-700 transition-all"
+            className="block bg-gradient-to-r from-blue-600 to-blue-600 text-white rounded-lg shadow-lg p-8 hover:from-blue-700 hover:to-blue-700 transition-all"
           >
             <div className="flex items-center justify-center">
               <BarChart3 className="h-8 w-8 mr-3" />
               <div className="text-center">
                 <h2 className="text-2xl font-bold mb-2">View Analytics Dashboard</h2>
-                <p className="text-purple-100">Get insights into adoption trends, pet statistics, and more</p>
+                <p className="text-blue-100">Get insights into adoption trends, pet statistics, and more</p>
+              </div>
+            </div>
+          </Link>
+        </div>
+        <div className="mt-4">
+          <Link
+            href="/ml-insights"
+            className="block bg-gradient-to-r from-red-500 to-red-400 text-white rounded-lg shadow-lg p-8 hover:from-red-700 hover:to-red-700 transition-all"
+          >
+            <div className="flex items-center justify-center">
+              <Sparkle className="h-8 w-8 mr-3" />
+              <div className="text-center">
+                <h2 className="text-2xl font-bold mb-2">View Adoption Insights</h2>
+                <p className="text-blue-100">Get insights into adoption</p>
               </div>
             </div>
           </Link>

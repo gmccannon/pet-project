@@ -1,10 +1,25 @@
-'use client'
+"use client"
 
 import Link from "next/link"
-import { Home, Search, Plus, Edit, Trash2, BarChart3, Users, Cat, LogOut } from "lucide-react"
-import { signOut } from "next-auth/react"
+import { Home, Search, Plus, Edit, Trash2, BarChart3, Users, Cat, LogOut, Sparkle, Heart, LogIn } from "lucide-react"
+import { SessionProvider, signOut, useSession } from "next-auth/react"
+import router, { useRouter } from "next/navigation"
+import React from 'react'
 
-export default function Navbar() {
+const Navbar = () => {
+  return (
+    <SessionProvider>
+      <NavbarInner />
+    </SessionProvider>
+  )
+}
+
+export default Navbar
+
+function NavbarInner() {
+  const { data: session, status } = useSession()
+  const router = useRouter()
+  
   return (
     <nav className="bg-white shadow-lg border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,10 +32,7 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center space-x-8">
-            <Link
-              href="/"
-              className="flex items-center space-x-1 text-gray-700 hover:text-blue-500 transition-colors"
-            >
+            <Link href="/" className="flex items-center space-x-1 text-gray-700 hover:text-blue-500 transition-colors">
               <Home className="h-4 w-4" />
               <span>Home</span>
             </Link>
@@ -104,19 +116,35 @@ export default function Navbar() {
             </div>
 
             <Link
+              href="/ml-insights"
+              className="flex items-center space-x-1 text-gray-700 hover:text-blue-500 transition-colors"
+            >
+              <Sparkle className="h-4 w-4" />
+              <span>Insights</span>
+            </Link>
+
+            <Link
               href="/analytics"
               className="flex items-center space-x-1 text-gray-700 hover:text-blue-500 transition-colors"
             >
               <BarChart3 className="h-4 w-4" />
               <span>Analytics</span>
             </Link>
-            <button
+            {status === "authenticated" 
+            ? <button
               onClick={() => signOut({ callbackUrl: "/" })}
               className="flex items-center space-x-1 text-gray-700 hover:text-blue-500 transition-colors"
             >
               <LogOut className="h-4 w-4" />
               <p className="pl-.5">Log Out</p>
             </button>
+            : <button
+              onClick={() => router.push("/login")}
+              className="flex items-center space-x-1 text-gray-700 hover:text-blue-500 transition-colors"
+            >
+              <LogIn className="h-4 w-4" />
+              <p className="pl-.5">Log In</p>
+            </button>}
           </div>
         </div>
       </div>
